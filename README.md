@@ -59,12 +59,29 @@ pthread_join is like the `wait()`function when creating processes. It waits for 
 
 The thread called in this function *must* be joinable.
 
-the `retval` variable returns the return value of the thread.
+the `retval` variable returns the return value (exit status) of the thread.
 
 
 
 #### Mutex
-- pthread_mutex_init
-- pthread_mutex_destroy
-- pthread_mutex_lock
+- pthread_mutex_init, initialises mutex ( https://man7.org/linux/man-pages/man3/pthread_mutex_destroy.3p.html )
+```c
+       int pthread_mutex_init(pthread_mutex_t *restrict mutex,
+           const pthread_mutexattr_t *restrict attr);
+       pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+```
+- pthread_mutex_destroy, destroys mutex ( https://man7.org/linux/man-pages/man3/pthread_mutex_destroy.3p.html )
+```c
+      int pthread_mutex_destroy(pthread_mutex_t *mutex);
+       int pthread_mutex_init(pthread_mutex_t *restrict mutex,
+           const pthread_mutexattr_t *restrict attr);
+       pthread_mutex_t mutex = PTHREAD_MUTEX_INITIALIZER;
+```
+
+- pthread_mutex_lock, (https://man7.org/linux/man-pages/man3/pthread_mutex_lock.3p.html ) 
+```c
+       int pthread_mutex_lock(pthread_mutex_t *mutex);
+       int pthread_mutex_trylock(pthread_mutex_t *mutex);
+       int pthread_mutex_unlock(pthread_mutex_t *mutex);
+```
 - pthread_mutex_unlock

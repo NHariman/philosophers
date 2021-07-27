@@ -6,7 +6,7 @@
 #    By: nhariman <nhariman@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/31 23:42:48 by nhariman      #+#    #+#                  #
-#    Updated: 2021/07/26 14:29:35 by nhariman      ########   odam.nl          #
+#    Updated: 2021/07/27 22:04:16 by nhariman      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,7 +14,8 @@ COMPILE = gcc
 
 FLAGS = -Wall -Werror -Wextra
 
-PHILO =
+PHILO = main.c \
+		str_functions.c
 
 OPHILO = $(PHILO:.c=.o)
 
@@ -25,7 +26,7 @@ all: $(NAME)
 $(NAME): $(OPHILO)
 	@$(COMPILE) $(OPHILO) -o $@
 
-%.o: %.c philo/philo.h
+%.o: %.c philo.h
 	@$(COMPILE) -c $(FLAGS) -o $@ -c $<
 
 clean:

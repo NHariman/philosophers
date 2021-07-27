@@ -1,30 +1,31 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   philo.h                                            :+:    :+:            */
+/*   str_functions.c                                    :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/07/27 21:47:51 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/07/27 22:05:16 by nhariman      ########   odam.nl         */
+/*   Created: 2021/07/27 21:30:36 by nhariman      #+#    #+#                 */
+/*   Updated: 2021/07/27 21:47:12 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef PHILO_H
-#define PHILO_H
+#include "philo.h"
 
-#include <string.h>
-#include <unistd.h>
-#include <limits.h>
-#include <stdio.h>
-#include <sys/time.h>
-#include <pthread.h>
+int	ft_strlen(char *str)
+{
+	int	i;
 
-/*
-** str functions
-*/
+	i = 0;
+	while (str[i] != '\0')
+		i++;
+	return (i);
+}
 
-void	ft_putstr_fd(char *str, int fd);
-int		ft_strlen(char *str);
-
-#endif
+void	ft_putstr_fd(char *str, int fd)
+{
+	if (!str)
+		write(fd, "(null)", 6);
+	else
+		write(fd, str, ft_strlen(str));
+}
