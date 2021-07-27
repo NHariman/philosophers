@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/07/27 22:05:00 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/07/27 22:15:03 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,5 +29,7 @@ int	main(int argc, char **argv)
 	(void)argv;
 	if (argc != 6 && argc != 5)
 		return (ft_invalid_input());
+	// count amount of argvs to determine 5 or 6 arguments
+	// fill struct of int numbers using a stricter version of atoi
 	return (0);
 }
