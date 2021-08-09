@@ -15,7 +15,8 @@ COMPILE = gcc
 FLAGS = -Wall -Werror -Wextra
 
 PHILO = main.c \
-		str_functions.c
+		str_functions.c \
+		is_something.c
 
 OPHILO = $(PHILO:.c=.o)
 

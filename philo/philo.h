@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        ::::::::            */
-/*   philo.h                                            :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2021/07/27 21:47:51 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/07/27 22:05:16 by nhariman      ########   odam.nl         */
+/*                                                        :::      ::::::::   */
+/*   philo.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: niks <niks@student.42.fr>                  +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2021/07/27 21:47:51 by nhariman          #+#    #+#             */
+/*   Updated: 2021/08/10 00:46:38 by niks             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,10 +21,26 @@
 #include <pthread.h>
 
 /*
+** Philo struct
+*/
+typedef struct  s_philo_stats
+{
+    long long philos;
+    long long die;
+    long long eat;
+    long long sleep;
+    long long must_eat;
+}               t_philo_stats;
+
+/*
 ** str functions
 */
 
-void	ft_putstr_fd(char *str, int fd);
-int		ft_strlen(char *str);
+void		ft_putstr_fd(char *str, int fd);
+int			ft_strlen(char *str);
+int			is_digit(int c);
+int			is_space(int c);
+int			is_negative(int i);
+long long	ft_atoll(const char *nptr);
 
 #endif
