@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 21:47:51 by nhariman          #+#    #+#             */
-/*   Updated: 2021/08/12 22:29:33 by niks             ###   ########.fr       */
+/*   Updated: 2021/08/12 22:39:57 by niks             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,7 @@
 
 typedef	struct	s_philo_id
 {
-	pthread_t	id;
+	pthread_t	tid;
 	long long	last_meal;
 }				t_philo_id;
 
@@ -37,7 +37,7 @@ typedef struct  s_gen_stats
     long long	eat;
     long long	sleep;
     long long	must_eat;
-	t_philo_id	*id;
+	t_philo_id	*philo_id;
 }               t_gen_stats;
 
 /*
