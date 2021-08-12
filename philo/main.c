@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/27 21:29:04 by nhariman          #+#    #+#             */
-/*   Updated: 2021/08/10 00:47:24 by niks             ###   ########.fr       */
+/*   Updated: 2021/08/12 22:20:49 by niks             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@ static int	ft_invalid_number(void)
 	return (0);
 }
 
-static int	ft_fill_stats(t_philo_stats *stats, char **av, int ac)
+static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
 {
 	stats->philos = ft_atoll(av[1]);
 	stats->die = ft_atoll(av[2]);
@@ -49,11 +49,12 @@ static int	ft_fill_stats(t_philo_stats *stats, char **av, int ac)
 
 int	main(int argc, char **argv)
 {
-	t_philo_stats stats;
+	t_gen_stats stats;
 
 	if (argc != 6 && argc != 5)
 		return (ft_invalid_input());
 	if (!ft_fill_stats(&stats, argv, argc))
 		return (1);
+	create_philos(stats);
 	return (0);
 }
