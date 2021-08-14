@@ -3,6 +3,8 @@ Codam's Philosophers project without the bonuses
 
 This project is about multithreading in C.
 https://www.geeksforgeeks.org/multithreading-c-2/
+https://www.thegeekstuff.com/2012/05/c-mutex-examples/ 
+https://www.geeksforgeeks.org/mutex-lock-for-linux-thread-synchronization/
 
 ##Introduction
 Threads are also called lightweight processes. However unlike processes, they are not independent from one another.

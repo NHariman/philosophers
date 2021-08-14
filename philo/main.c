@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: niks <niks@student.42.fr>                  +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/27 21:29:04 by nhariman          #+#    #+#             */
-/*   Updated: 2021/08/12 22:20:49 by niks             ###   ########.fr       */
+/*                                                        ::::::::            */
+/*   main.c                                             :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: niks <niks@student.42.fr>                    +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
+/*   Updated: 2021/08/14 04:08:53 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,9 @@ static int	ft_invalid_input(void)
 
 static int	ft_invalid_number(void)
 {
-	ft_putstr_fd("Invalid Number.\nDo not use negative numbers or input anything that isn't just digits 0-9.\n", 2);
+	ft_putstr_fd("Invalid Number.\n", 2);
+	ft_putstr_fd("Do not use negative numbers or input anything", 2);
+	ft_putstr_fd("that isn't just digits 0-9.\n", 2);
 	return (0);
 }
 
@@ -40,21 +42,21 @@ static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
 		stats->must_eat = ft_atoll(av[5]);
 	else
 		stats->must_eat = -2;
-	if (is_negative(stats->philos) || is_negative(stats->die) ||
-	is_negative(stats->eat) || is_negative(stats->sleep) ||
-	(ac == 6 && is_negative(stats->must_eat)))
+	if (is_negative(stats->philos) || is_negative(stats->die)
+		|| is_negative(stats->eat) || is_negative(stats->sleep)
+		|| (ac == 6 && is_negative(stats->must_eat)))
 		return (ft_invalid_number());
 	return (1);
 }
 
 int	main(int argc, char **argv)
 {
-	t_gen_stats stats;
+	t_gen_stats	stats;
 
 	if (argc != 6 && argc != 5)
 		return (ft_invalid_input());
 	if (!ft_fill_stats(&stats, argv, argc))
 		return (1);
-	create_philos(stats);
+	create_philos(&stats);
 	return (0);
 }
