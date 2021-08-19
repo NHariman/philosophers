@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/08/14 04:08:53 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/08/19 18:12:18 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,17 +32,27 @@ static int	ft_invalid_number(void)
 	return (0);
 }
 
+long	get_time()
+{
+	struct timeval time;
+	
+	gettimeofday(&time, NULL);
+	return((time.tv_sec) * 1000 + (time.tv_usec) / 1000);
+}
+
 static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
 {
-	stats->philos = ft_atoll(av[1]);
+	stats->num_philos = ft_atoll(av[1]);
 	stats->die = ft_atoll(av[2]);
 	stats->eat = ft_atoll(av[3]);
 	stats->sleep = ft_atoll(av[4]);
+	stats->death = false;
+	stats->start_time = get_time();
 	if (ac == 6)
 		stats->must_eat = ft_atoll(av[5]);
 	else
 		stats->must_eat = -2;
-	if (is_negative(stats->philos) || is_negative(stats->die)
+	if (is_negative(stats->num_philos) || is_negative(stats->die)
 		|| is_negative(stats->eat) || is_negative(stats->sleep)
 		|| (ac == 6 && is_negative(stats->must_eat)))
 		return (ft_invalid_number());
