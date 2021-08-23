@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:47:51 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/08/19 18:40:26 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/08/23 21:09:03 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,7 +30,7 @@
 enum    actions{
     eat,
     think,
-    sleep,
+    sleepy,
     die
 };
 
@@ -41,8 +41,11 @@ enum    actions{
 typedef	struct	s_philo_id
 {
 	pthread_t	tid;
+    long long   id;
 	long long	last_meal;
     pthread_mutex_t lock;
+    t_gen_stats *stats;
+    bool        death;
 }				t_philo_id;
 
 typedef struct  s_gen_stats
@@ -52,9 +55,8 @@ typedef struct  s_gen_stats
     long long	eat;
     long long	sleep;
     long long	must_eat;
-	t_philo_id	*philo_id;
     long long   start_time;
-    bool        death;
+    bool        death_occured;
 }               t_gen_stats;
 
 /*
