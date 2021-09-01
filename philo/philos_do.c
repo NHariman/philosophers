@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/12 17:05:31 by niks          #+#    #+#                 */
-/*   Updated: 2021/08/30 18:40:04 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/01 18:01:19 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,7 +56,7 @@ void	grab_fork(t_philo_id *philo)
 			else if (//try to grab left fork)
 				philo->stats->lock[philo->stats->num_philos - 1];
 			else
-				return (0)
+				return (0);
 		
 	//grab right mutex_lock, so i + 1
 	//if that does not work, grab left mutex lock, so i - 1
