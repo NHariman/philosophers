@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   str_functions.c                                    :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: niks <niks@student.42.fr>                  +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/27 21:30:36 by nhariman          #+#    #+#             */
-/*   Updated: 2021/08/10 00:41:51 by niks             ###   ########.fr       */
+/*                                                        ::::::::            */
+/*   str_functions.c                                    :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: niks <niks@student.42.fr>                    +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2021/07/27 21:30:36 by nhariman      #+#    #+#                 */
+/*   Updated: 2021/08/30 14:47:27 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,12 @@ int	ft_strlen(char *str)
 void	ft_putstr_fd(char *str, int fd)
 {
 	write(fd, str, ft_strlen(str));
+}
+
+int	ft_prnt_err(char *str)
+{
+	write(2, str, ft_strlen(str));
+	return (1);
 }
 
 /*

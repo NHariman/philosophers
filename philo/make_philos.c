@@ -6,36 +6,38 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/12 21:44:12 by niks          #+#    #+#                 */
-/*   Updated: 2021/08/23 21:18:19 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/08/30 18:42:00 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-//first play god and put everyting in 1 thread
-// then branch out into separate threads which are all monitored by the first thread?
+/*
+** first play god and put everyting in 1 thread
+** then branch out into separate threads
+** which are all monitored by the first thread?
+*/
 
-void	*live_your_life(void *arg)
+static void	*live_your_life(void *arg)
 {
-	t_philo_id	*philos;
+	t_philo_id	*philo;
 
-	philos = (t_philo_id *)arg;
-	//pthread_mutex_lock()
-	while (philos->death)
+	philo = (t_philo_id *)arg;
+	while (!philos->death || philo->stats->die < get_time() - philo->last_meal)
 	{
-		if (grab_fork(philos))
+		if (grab_fork(philo))
 		{
-			philo_action(philos, eat);
-			philo_action(philos, sleepy);
+			philo_action(philo, eat);
+			philo_action(philo, sleepy);
 		}
 		else
-			philo_action(philos, think);
+			philo_action(philo, think);
 	}
-	philo_action(philos, die);
-	return NULL;
+	philo_action(philo, die);
+	return (NULL);
 }
 
-int	spawn_philo(t_philo_id **philo_id, t_gen_stats stats)
+static int	spawn_philo(t_philo_id **philo_id, t_gen_stats stats)
 {
 	int	i;
 
@@ -44,35 +46,59 @@ int	spawn_philo(t_philo_id **philo_id, t_gen_stats stats)
 	{
 		philo_id[i]->id = i;
 		philo_id[i]->last_meal = 0;
-		pthread_mutex_init(&philo_id[i]->lock , NULL);
+		if (pthread_mutex_init(&philo_id[i]->stats->lock[i], NULL))
+			return (ft_prnt_err("Error\nMutex init failure.\n"));
 		philo_id[i]->stats = &stats;
 		philo_id[i]->death = false;
 		i++;
 	}
-	return (1);
+	return (0);
 }
 
-int	create_philos(t_gen_stats *stats)
+static int	create_philos(t_philo_id *philo_id, long long num_philos)
 {
-	int			i;
+	int	i;
+
+	i = 0;
+	while (i < num_philos)
+	{
+		if (pthread_create(
+				philo_id[i].tid, NULL, &live_your_life, (void *)&philo_id[i]))
+			return (ft_prnt_err("Error\nFailure to create thread.\n"));
+		i++;
+	}
+	return (0);
+}
+
+static int	join_philos(t_philo_id *philo_id, long long num_philos)
+{
+	int	i;
+
+	i = 0;
+	while (i < num_philos)
+	{
+		if (pthread_join(philo_id[i].tid, &ret))
+			return (ft_prnt_err("Error\nUnable to join threads\n"));
+		i++;
+	}
+	return (0);
+}
+
+int	setup_philos(t_gen_stats *stats)
+{
 	int			*ret;
 	t_philo_id	*philo_id;
 
 	i = 0;
-	philo_id = (t_philo_id *)malloc(stats->num_philos * sizeof(t_philo_id));
-	spawn_philo(&philo_id, *stats);
-	while (i < stats->num_philos)
-	{
-		// if cannot create thread, die.
-		pthread_create(
-			philo_id[i].tid, NULL, &live_your_life, (void *)&philo_id);
-		i++;
-	}
-	i = 0;
-	while (i < stats->num_philos)
-	{
-		pthread_join(philo_id[i].tid, &ret);
-		i++;
-	}
-	return (*ret);
+	philo_id = (t_philo_id *)
+		malloc(stats->num_philos * sizeof(t_philo_id));
+	philo_id->lock = (pthread_mutex_t *)malloc(
+		stats->num_philos * sizeof(pthread_mutex_t))
+	if (spawn_philo(&philo_id, *stats))
+		return (1);
+	if (create_philos(philo_id, stats->num_philos))
+		return (1);
+	if (join_philos(philo_id, stats->num_philos))
+		return (1);
+	return (0);
 }

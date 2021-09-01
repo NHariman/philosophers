@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/08/23 21:10:47 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/08/30 15:07:25 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,14 +30,6 @@ static int	ft_invalid_number(void)
 	ft_putstr_fd("Do not use negative numbers or input anything", 2);
 	ft_putstr_fd("that isn't just digits 0-9.\n", 2);
 	return (0);
-}
-
-long	get_time()
-{
-	struct timeval time;
-	
-	gettimeofday(&time, NULL);
-	return((time.tv_sec) * 1000 + (time.tv_usec) / 1000);
 }
 
 static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
@@ -67,6 +59,7 @@ int	main(int argc, char **argv)
 		return (ft_invalid_input());
 	if (!ft_fill_stats(&stats, argv, argc))
 		return (1);
-	create_philos(&stats);
+	if (setup_philos(&stats))
+		return (ft_prnt_err("Error\nSee previous messages for info.\n"));
 	return (0);
 }
