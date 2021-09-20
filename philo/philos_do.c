@@ -6,11 +6,48 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/12 17:05:31 by niks          #+#    #+#                 */
-/*   Updated: 2021/09/01 18:01:19 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/20 15:48:23 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+static void	philo_living(t_philo_id *philo, int status)
+{
+	if (status == eat)
+	{
+		printf("is eating\n");
+		usleep(philo->stats->eat);
+		philo->last_meal = elapsed_time(philo->stats->start_time);
+		put_down_fork(philo);
+	}
+	else if (status == sleepy)
+	{
+		printf("is sleeping\n");
+		usleep(philo->stats->sleep);
+	}
+	else if (status == sleep)
+		printf("is thinking\n");
+}
+
+void	philo_action(t_philo_id *philo, int status)
+{
+	long long	time;
+
+	if (philo->stats->death_occured)
+		return ;
+	time = elapsed_time(philo->stats->start_time);
+	printf("[%lu] Philosopher no. %i ", time, philo->id);
+	if (time - philo->last_meal > philo->stats->die)
+	{
+		philo->death = TRUE;
+		philo->stats->death_occured = TRUE;
+		printf("has died\n");
+		return ;
+	}
+	else
+		philo_living(philo, status);
+}
 
 /*
 ** the struct for reference:
@@ -36,42 +73,4 @@
 **     bool        death_occured;
 ** }               t_gen_stats;
 ** 
- */
-
-long	get_time(void)
-{
-	struct timeval	time;
-
-	gettimeofday(&time, NULL);
-	return ((time.tv_sec) * 1000 + (time.tv_usec) / 1000);
-}
-
-void	grab_fork(t_philo_id *philo)
-{
-	if (philo->stats->num_philos > 1)
-		if (philo->id == 0)
-		{
-			if (//try to grab right fork)
-				philo->stats->lock[philo->id + 1];
-			else if (//try to grab left fork)
-				philo->stats->lock[philo->stats->num_philos - 1];
-			else
-				return (0);
-		
-	//grab right mutex_lock, so i + 1
-	//if that does not work, grab left mutex lock, so i - 1
-}
-
-void	philo_action(t_philo_id *philo, int status)
-{
-	//get time and subtract start time for elapsed time
-	//get last meal time and subtract elapsed time from last meal
-	// if this value is larger than death time
-	// kill the philosopher and end the process.
-	// don't forget to change the bool of death to TRUE
-	// also unlock mutex
-	//check status, what's supposed to happen?
-	//print what happened
-	//sleep for the appropriate time
-	// if eating, unlock.
-}
+*/

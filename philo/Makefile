@@ -6,7 +6,7 @@
 #    By: nhariman <nhariman@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/31 23:42:48 by nhariman      #+#    #+#                  #
-#    Updated: 2021/07/27 22:04:16 by nhariman      ########   odam.nl          #
+#    Updated: 2021/09/20 15:51:07 by nhariman      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,11 @@ FLAGS = -Wall -Werror -Wextra
 
 PHILO = main.c \
 		str_functions.c \
-		is_something.c
+		is_something.c \
+		time_functions.c \
+		make_philos.c \
+		philo_forks.c \
+		philos_do.c
 
 OPHILO = $(PHILO:.c=.o)
 

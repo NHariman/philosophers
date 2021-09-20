@@ -6,14 +6,13 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/08/30 18:32:56 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/20 15:53:36 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHILO_H
 # define PHILO_H
 
-# define FORK "has taken a fork"
 # define EAT "eating"
 # define THINK "thinking"
 # define SLEEP "sleeping"
@@ -38,15 +37,6 @@ enum	e_actions{
 ** Philo struct
 */
 
-typedef struct s_philo_id
-{
-	pthread_t		tid;
-	long long		id;
-	long long		last_meal;
-	t_gen_stats		*stats;
-	bool			death;
-}				t_philo_id;
-
 typedef struct s_gen_stats
 {
 	long long		num_philos;
@@ -58,6 +48,15 @@ typedef struct s_gen_stats
 	long long		start_time;
 	bool			death_occured;
 }				t_gen_stats;
+
+typedef struct s_philo_id
+{
+	pthread_t		tid;
+	long long		id;
+	long long		last_meal;
+	t_gen_stats		*stats;
+	bool			death;
+}				t_philo_id;
 
 /*
 ** str and number functions
@@ -74,12 +73,20 @@ long long	ft_atoll(const char *nptr);
 /*
 ** get time
 */
-long		get_time(void);
+long long	get_time(void);
+long long	elapsed_time(long long start_time);
 
 /*
 ** threading functions
 */
 int			setup_philos(t_gen_stats *stats);
 int			grab_fork(t_philo_id *philo);
+int			put_down_fork(t_philo_id *philo);
+
+/*
+** Philosopher actions and living
+*/
+void		philo_action(t_philo_id *philo, int status);
+
 
 #endif
