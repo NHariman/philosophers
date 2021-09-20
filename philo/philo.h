@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/20 15:53:36 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/20 18:32:39 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 
 # include <string.h>
 # include <unistd.h>
+# include <stdlib.h>
 # include <limits.h>
 # include <stdio.h>
 # include <sys/time.h>
@@ -87,6 +88,5 @@ int			put_down_fork(t_philo_id *philo);
 ** Philosopher actions and living
 */
 void		philo_action(t_philo_id *philo, int status);
-
 
 #endif
