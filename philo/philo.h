@@ -6,17 +6,12 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/20 18:32:39 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/21 18:17:26 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #ifndef PHILO_H
 # define PHILO_H
-
-# define EAT "eating"
-# define THINK "thinking"
-# define SLEEP "sleeping"
-# define DIED "died"
 
 # include <string.h>
 # include <unistd.h>
@@ -42,6 +37,7 @@ typedef struct s_gen_stats
 {
 	long long		num_philos;
 	pthread_mutex_t	*lock;
+	pthread_mutex_t	print_lock;
 	long long		die;
 	long long		eat;
 	long long		sleep;
@@ -70,6 +66,7 @@ void		ft_putstr_fd(char *str, int fd);
 int			ft_prnt_err(char *str);
 int			ft_strlen(char *str);
 long long	ft_atoll(const char *nptr);
+int			ft_mutex_print(t_philo_id *philo, int ret, char *action);
 
 /*
 ** get time
@@ -83,10 +80,12 @@ long long	elapsed_time(long long start_time);
 int			setup_philos(t_gen_stats *stats);
 int			grab_fork(t_philo_id *philo);
 int			put_down_fork(t_philo_id *philo);
+int			ft_destroy_mutex(pthread_mutex_t *lock, long long num_philos);
 
 /*
 ** Philosopher actions and living
 */
 void		philo_action(t_philo_id *philo, int status);
+void		philo_lock(pthread_mutex_t *lock, int *stick);
 
 #endif

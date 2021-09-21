@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/20 18:34:48 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/21 18:54:15 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,5 +61,6 @@ int	main(int argc, char **argv)
 		return (1);
 	if (setup_philos(&stats))
 		return (ft_prnt_err("Error\nSee previous messages for info.\n"));
+	free(&stats);
 	return (0);
 }

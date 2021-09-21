@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/12 21:44:12 by niks          #+#    #+#                 */
-/*   Updated: 2021/09/21 12:28:35 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/21 18:11:40 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,9 +29,8 @@ static void	*live_your_life(void *arg)
 		{
 			philo_action(philo, eat);
 			philo_action(philo, sleepy);
-		}
-		else
 			philo_action(philo, think);
+		}
 	}
 	return (NULL);
 }
@@ -41,6 +40,8 @@ static int	spawn_philo(t_philo_id *philo_id, t_gen_stats stats)
 	long long	i;
 
 	i = 0;
+	if (pthread_mutex_init(&stats.print_lock, NULL))
+		return (ft_prnt_err("Error\nMutex init failure.\n"));
 	while (i < stats.num_philos)
 	{
 		philo_id[i].id = i;
@@ -99,7 +100,10 @@ int	setup_philos(t_gen_stats *stats)
 		return (1);
 	if (create_philos(philo_id, stats->num_philos))
 		return (1);
+	if (ft_destroy_mutex(stats->lock, stats->num_philos))
+		return (1);
 	if (join_philos(philo_id, stats->num_philos))
 		return (1);
+	free(philo_id);
 	return (0);
 }
