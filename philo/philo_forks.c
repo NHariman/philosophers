@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/20 15:32:35 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/20 18:33:09 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/21 12:24:33 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,15 @@
 
 static int	put_down_multi(t_philo_id *philo)
 {
-	if (philo->id >= 0 && philo->id < philo->stats->num_philos - 1
-		&& !pthread_mutex_unlock(&philo->stats->lock[philo->id + 1]))
-		return (1);
-	else if (philo->id == 0
+	if (philo->id == 0
 		&& !pthread_mutex_unlock(
 			&philo->stats->lock[philo->stats->num_philos - 1]))
 		return (1);
 	else if (philo->id == philo->stats->num_philos - 1
 		&& !pthread_mutex_unlock(&philo->stats->lock[0]))
+		return (1);
+	else if (philo->id >= 0 && philo->id < philo->stats->num_philos - 1
+		&& !pthread_mutex_unlock(&philo->stats->lock[philo->id]))
 		return (1);
 	else if (philo->id > 0 && philo->id <= philo->stats->num_philos - 1
 		&& !pthread_mutex_unlock(&philo->stats->lock[philo->id - 1]))
@@ -49,15 +49,15 @@ int	put_down_fork(t_philo_id *philo)
 
 static int	grab_multi(t_philo_id *philo)
 {
-	if (philo->id >= 0 && philo->id < philo->stats->num_philos - 1
-		&& !pthread_mutex_lock(&philo->stats->lock[philo->id + 1]))
-		return (1);
-	else if (philo->id == 0
+	if (philo->id == 0
 		&& !pthread_mutex_lock(
 			&philo->stats->lock[philo->stats->num_philos - 1]))
 		return (1);
 	else if (philo->id == philo->stats->num_philos - 1
 		&& !pthread_mutex_lock(&philo->stats->lock[0]))
+		return (1);
+	else if (philo->id >= 0 && philo->id < philo->stats->num_philos - 1
+		&& !pthread_mutex_lock(&philo->stats->lock[philo->id]))
 		return (1);
 	else if (philo->id > 0
 		&& philo->id <= philo->stats->num_philos - 1
