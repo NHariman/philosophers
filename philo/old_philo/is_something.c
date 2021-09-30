@@ -1,29 +1,34 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   time_functions.c                                   :+:    :+:            */
+/*   is_something.c                                     :+:    :+:            */
 /*                                                     +:+                    */
-/*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
+/*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/09/20 14:58:00 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/30 19:06:48 by nhariman      ########   odam.nl         */
+/*   Created: 2021/08/09 22:01:48 by niks          #+#    #+#                 */
+/*   Updated: 2021/08/30 15:04:12 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-long long	get_time(void)
+int	is_digit(int c)
 {
-	struct timeval	time;
-
-	gettimeofday(&time, NULL);
-	return ((time.tv_sec) * 1000 + (time.tv_usec) / 1000);
+	if (c >= '0' && c <= '9')
+		return (1);
+	return (0);
 }
 
-long long	elapsed_time(long long start_time)
+int	is_space(int c)
 {
-	long long	current_time;
+	if (c == ' ' || c == '\t' || c == '\n' || c == '\v' || c == '\f')
+		return (1);
+	return (0);
+}
 
-	current_time = get_time();
-	return (current_time - start_time);
+int	is_negative(int i)
+{
+	if (i < 0)
+		return (1);
+	return (0);
 }

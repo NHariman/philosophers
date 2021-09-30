@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/12 21:44:12 by niks          #+#    #+#                 */
-/*   Updated: 2021/09/21 18:11:40 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/30 18:49:53 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,6 +66,7 @@ static int	create_philos(t_philo_id *philo_id, long long num_philos)
 				&philo_id[i].tid, NULL, &live_your_life, (void *)&philo_id[i]))
 			return (ft_prnt_err("Error\nFailure to create thread.\n"));
 		i++;
+		//usleep(2000);
 	}
 	return (0);
 }
@@ -77,7 +78,7 @@ static int	join_philos(t_philo_id *philo_id, long long num_philos)
 	i = 0;
 	while (i < num_philos)
 	{
-		if (pthread_join(philo_id[i].tid, NULL))
+		if (pthread_join(philo_id[num_philos - 1 - i].tid, NULL))
 			return (ft_prnt_err("Error\nUnable to join threads\n"));
 		i++;
 	}

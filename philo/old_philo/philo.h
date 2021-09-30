@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/30 19:14:09 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/21 18:17:26 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,19 @@ int			ft_mutex_print(t_philo_id *philo, int ret, char *action);
 */
 long long	get_time(void);
 long long	elapsed_time(long long start_time);
+
+/*
+** threading functions
+*/
+int			setup_philos(t_gen_stats *stats);
+int			grab_fork(t_philo_id *philo);
+int			put_down_fork(t_philo_id *philo);
+int			ft_destroy_mutex(pthread_mutex_t *lock, long long num_philos);
+
+/*
+** Philosopher actions and living
+*/
+void		philo_action(t_philo_id *philo, int status);
+void		philo_lock(pthread_mutex_t *lock, int *stick);
 
 #endif

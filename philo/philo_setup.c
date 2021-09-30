@@ -1,29 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        ::::::::            */
-/*   time_functions.c                                   :+:    :+:            */
+/*   philo_setup.c                                      :+:    :+:            */
 /*                                                     +:+                    */
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2021/09/20 14:58:00 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/30 19:06:48 by nhariman      ########   odam.nl         */
+/*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
+/*   Updated: 2021/09/30 21:46:14 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-long long	get_time(void)
+// create threads function here
+static int	create_threads(t_gen_stats *stats)
+
+// join threads function here
+
+int	setup_philos(t_gen_stats *stats)
 {
-	struct timeval	time;
-
-	gettimeofday(&time, NULL);
-	return ((time.tv_sec) * 1000 + (time.tv_usec) / 1000);
-}
-
-long long	elapsed_time(long long start_time)
-{
-	long long	current_time;
-
-	current_time = get_time();
-	return (current_time - start_time);
+	if (initialise_mutex_locks(stats) != 0)
+		return (1);
+	// create threads
+	// join threads
+	if (destroy_mutex_locks(stats) != 0)
+		return (1);
 }

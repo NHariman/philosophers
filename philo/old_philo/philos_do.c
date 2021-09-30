@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/12 17:05:31 by niks          #+#    #+#                 */
-/*   Updated: 2021/09/21 18:10:31 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/09/30 18:41:52 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -45,7 +45,7 @@ int	ft_destroy_mutex(pthread_mutex_t *lock, long long num_philos)
 	i = 0;
 	while (i < num_philos)
 	{
-		if (pthread_mutex_destroy(&lock[i]))
+		if (pthread_mutex_destroy(&lock[(num_philos - 1) - i]))
 			return (ft_prnt_err("Error\nUnable to destroy mutex\n"));
 		i++;
 	}
