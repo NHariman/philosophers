@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:47:47 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/05 16:18:21 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/05 17:01:57 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,9 +35,9 @@ int	initialise_mutex_locks(t_gen_stats *stats)
 }
 
 // attempt lock function here
-int	try_lock(t_philo_id *philo)
+int	grab_fork(t_philo_id *philo)
 {
-	
+	// grab its own fork or
 }
 
 // attempt unlock function here
