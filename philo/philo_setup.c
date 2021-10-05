@@ -6,33 +6,18 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/04 19:40:24 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/05 16:15:33 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-void	init_philo_vars(t_philo_id *philo, t_gen_stats stats, long long i)
+static void	init_philo_vars(t_philo_id *philo, t_gen_stats stats, long long i)
 {
 	philo->id = i;
 	philo->last_meal = 0;
 	philo->stats = &stats;
 	philo->death = false;
-}
-
-// join threads function here
-static int	join_threads(t_philo_id *philo, long long nb)
-{
-	int	i;
-
-	i = 0;
-	while (i < nb)
-	{
-		pthread_join(philo[i]->tid, NULL);
-		i++;
-	}
-	free(philo);
-	return (0);
 }
 
 // create threads function here
@@ -57,9 +42,12 @@ static int	create_threads(t_philo_id *philo,
 				&philo[i]->tid, NULL, &live_your_life, (void *)philo);
 		if (error)
 			return (join_threads(philo, i));
-		usleep(5000);
+		pthread_detatch(philo[i]->tid);
+		usleep(1000);
 		i++;
 	}
+	pthread_join(monitor, NULL);
+	free(philo);
 	return (0);
 }
 
@@ -71,7 +59,6 @@ int	setup_philos(t_gen_stats *stats)
 		return (1);
 	if (create_threads(philo, stats, stats->num_philos))
 		return (1);
-	join_threads(philo, stats->num_philos);
 	destroy_mutex_locks(stats);
 	return (0);
 }

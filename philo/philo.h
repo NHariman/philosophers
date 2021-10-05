@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/04 12:36:05 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/05 16:17:27 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,5 +73,17 @@ int			ft_mutex_print(t_philo_id *philo, int ret, char *action);
 */
 long long	get_time(void);
 long long	elapsed_time(long long start_time);
+
+/*
+** Philo functions
+*/
+int			setup_philos(t_gen_stats *stats);
+void		*monitoring_system(void *args);
+int			end_monitoring(t_gen_stats *stats);
+void		*live_your_life(void *arg);
+
+// mutex
+int			destroy_mutex_locks(t_gen_stats *stats);
+int			initialise_mutex_locks(t_gen_stats *stats)
 
 #endif
