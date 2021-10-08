@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/05 16:17:37 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/08 17:33:12 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,7 @@ static void	philo_living(t_philo_id *philo, int status)
 		ft_mutex_print(philo, 0, "is eating");
 		usleep(philo->stats->eat * 1000);
 		philo->last_meal = elapsed_time(philo->stats->start_time);
-		put_down_fork(philo);
+		drop_forks(philo);
 	}
 	else if (status == sleepy)
 	{
@@ -69,7 +69,7 @@ void	*live_your_life(void *arg)
 	philo = (t_philo_id *)arg;
 	while (philo->stats->death_occured == false || philo->death == true)
 	{
-		if (grab_fork(philo))
+		if (grab_forks(philo))
 		{
 			philo_action(philo, think);
 			philo_action(philo, eat);

@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:30:36 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/21 18:05:10 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/08 17:17:51 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,10 +14,8 @@
 
 int	ft_mutex_print(t_philo_id *philo, int ret, char *action)
 {
-	long long	wait;
 	long long	time;
 
-	wait = 0;
 	pthread_mutex_lock(&philo->stats->print_lock);
 	time = elapsed_time(philo->stats->start_time);
 	printf("[%lld] Philosopher %lld %s\n",

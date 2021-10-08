@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/05 16:17:27 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/08 17:34:24 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -84,6 +84,8 @@ void		*live_your_life(void *arg);
 
 // mutex
 int			destroy_mutex_locks(t_gen_stats *stats);
-int			initialise_mutex_locks(t_gen_stats *stats)
+int			initialise_mutex_locks(t_gen_stats *stats);
+int			grab_forks(t_philo_id *philo);
+int			drop_forks(t_philo_id *philo);
 
 #endif
