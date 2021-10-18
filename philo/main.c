@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/09/22 12:55:43 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/18 21:08:29 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -44,6 +44,7 @@ static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
 		stats->must_eat = ft_atoll(av[5]);
 	else
 		stats->must_eat = -2;
+	stats->meal_count = 0;
 	if (is_negative(stats->num_philos) || is_negative(stats->die)
 		|| is_negative(stats->eat) || is_negative(stats->sleep)
 		|| (ac == 6 && is_negative(stats->must_eat)))

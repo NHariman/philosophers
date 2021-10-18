@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:47:47 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/08 17:35:43 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/18 18:49:32 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,11 +37,14 @@ int	initialise_mutex_locks(t_gen_stats *stats)
 // attempt lock function here
 int	grab_forks(t_philo_id *philo)
 {
-	pthread_mutex_lock(&philo->stats->lock[philo->id]);
+	if (philo->id % 2 == 0)
+		pthread_mutex_lock(&philo->stats->lock[philo->id]);
 	if (philo->id == 0)
 		pthread_mutex_lock(&philo->stats->lock[philo->stats->num_philos - 1]);
 	else
 		pthread_mutex_lock(&philo->stats->lock[philo->id - 1]);
+	if (philo->id % 2 != 0)
+		pthread_mutex_lock(&philo->stats->lock[philo->id]);
 	return (1);
 }
 

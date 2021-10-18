@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/08 17:34:24 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/18 21:18:52 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -42,6 +42,7 @@ typedef struct s_gen_stats
 	long long		eat;
 	long long		sleep;
 	long long		must_eat;
+	long long		meal_count;
 	long long		start_time;
 	bool			death_occured;
 }				t_gen_stats;
@@ -79,7 +80,7 @@ long long	elapsed_time(long long start_time);
 */
 int			setup_philos(t_gen_stats *stats);
 void		*monitoring_system(void *args);
-int			end_monitoring(t_gen_stats *stats);
+int			end_monitoring(t_gen_stats *stats, pthread_t *monitor);
 void		*live_your_life(void *arg);
 
 // mutex

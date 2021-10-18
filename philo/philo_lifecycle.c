@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/08 17:33:12 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/18 22:00:02 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,18 +21,19 @@ static void	philo_living(t_philo_id *philo, int status)
 		return ;
 	if (status == eat)
 	{
-		ft_mutex_print(philo, 0, "is eating");
+		ft_mutex_print(philo, 0, "is \033[0;33meating\033[0m");
+		philo->stats->meal_count += 1;
 		usleep(philo->stats->eat * 1000);
 		philo->last_meal = elapsed_time(philo->stats->start_time);
 		drop_forks(philo);
 	}
 	else if (status == sleepy)
 	{
-		ft_mutex_print(philo, 0, "is sleeping");
+		ft_mutex_print(philo, 0, "is \033[0;36msleeping\033[0m");
 		usleep(philo->stats->sleep * 1000);
 	}
 	else if (status == think)
-		ft_mutex_print(philo, 0, "is thinking");
+		ft_mutex_print(philo, 0, "is \033[0;32mthinking\033[0m");
 }
 
 static void	philo_action(t_philo_id *philo, int status)
@@ -52,7 +53,7 @@ static void	philo_action(t_philo_id *philo, int status)
 			philo->death = true;
 			return ;
 		}
-		ft_mutex_print(philo, 0, "has died");
+		ft_mutex_print(philo, 0, "has \033[0;31mdied\033[0m");
 		philo->death = true;
 		philo->stats->death_occured = true;
 		return ;
@@ -75,6 +76,10 @@ void	*live_your_life(void *arg)
 			philo_action(philo, eat);
 			philo_action(philo, sleepy);
 		}
+		if (philo->stats->must_eat != -2
+			&& philo->stats->meal_count
+			== philo->stats->must_eat * (philo->stats->num_philos))
+			philo->stats->death_occured = true;
 	}
 	return (NULL);
 }
