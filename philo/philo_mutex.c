@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:47:47 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/18 18:49:32 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/19 18:44:43 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,8 @@ int	initialise_mutex_locks(t_gen_stats *stats)
 
 	i = 0;
 	if (pthread_mutex_init(&stats->print_lock, NULL) != 0)
+		return (ft_prnt_err("Error\nMutex init failure.\n"));
+	if (pthread_mutex_init(&stats->death_lock, NULL) != 0)
 		return (ft_prnt_err("Error\nMutex init failure.\n"));
 	stats->lock = (pthread_mutex_t *)malloc(
 			stats->num_philos * sizeof(pthread_mutex_t));
@@ -66,6 +68,7 @@ int	destroy_mutex_locks(t_gen_stats *stats)
 
 	i = 0;
 	pthread_mutex_destroy(&stats->print_lock);
+	pthread_mutex_destroy(&stats->death_lock);
 	while (i < stats->num_philos)
 	{
 		pthread_mutex_destroy(&stats->lock[i]);

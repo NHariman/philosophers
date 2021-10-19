@@ -6,7 +6,7 @@
 #    By: nhariman <nhariman@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/31 23:42:48 by nhariman      #+#    #+#                  #
-#    Updated: 2021/10/05 16:14:26 by nhariman      ########   odam.nl          #
+#    Updated: 2021/10/19 14:18:32 by nhariman      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -52,6 +52,9 @@ one: re
 
 sanitize: fclean
 	@$(COMPILE) $(PHILO) -g -fsanitize=address -o $(NAME)
+
+thread: fclean
+	@$(COMPILE) $(PHILO) -g -fsanitize=thread -o $(NAME)
 
 try_two:
 	./philo 4 400 200 200

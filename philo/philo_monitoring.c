@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:58 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/18 21:53:42 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/19 20:55:47 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,13 +25,16 @@ void	*monitoring_system(void *args)
 	t_gen_stats	*stats;
 
 	stats = (t_gen_stats *)args;
-	while (stats->death_occured == false)
+	while (1)
 	{
+		pthread_mutex_lock(&stats->death_lock);
+		if (stats->death_occured == true)
+		{
+			pthread_mutex_unlock(&stats->death_lock);
+			break ;
+		}
+		pthread_mutex_unlock(&stats->death_lock);
 		usleep(1000);
-		// if (stats->must_eat != -2
-		// 	&& stats->meal_count
-		// 	== stats->must_eat * (stats->num_philos))
-		// 	stats->death_occured = true;
 	}
 	return (0);
 }

@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/18 21:18:52 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/19 18:44:22 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,11 +38,11 @@ typedef struct s_gen_stats
 	long long		num_philos;
 	pthread_mutex_t	*lock;
 	pthread_mutex_t	print_lock;
+	pthread_mutex_t	death_lock;
 	long long		die;
 	long long		eat;
 	long long		sleep;
 	long long		must_eat;
-	long long		meal_count;
 	long long		start_time;
 	bool			death_occured;
 }				t_gen_stats;
@@ -54,6 +54,7 @@ typedef struct s_philo_id
 	long long		last_meal;
 	t_gen_stats		*stats;
 	bool			death;
+	long long		meal_count;
 }				t_philo_id;
 
 /*
