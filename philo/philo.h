@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/19 18:44:22 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/20 20:31:36 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -83,6 +83,7 @@ int			setup_philos(t_gen_stats *stats);
 void		*monitoring_system(void *args);
 int			end_monitoring(t_gen_stats *stats, pthread_t *monitor);
 void		*live_your_life(void *arg);
+int			check_death_occurence(t_philo_id *philo);
 
 // mutex
 int			destroy_mutex_locks(t_gen_stats *stats);

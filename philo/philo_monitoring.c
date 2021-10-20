@@ -6,11 +6,23 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:58 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/19 20:55:47 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/20 21:58:24 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
+
+int	check_death_occurence(t_philo_id *philo)
+{
+	int	ret;
+
+	ret = 0;
+	pthread_mutex_lock(&philo->stats->death_lock);
+	if (philo->stats->death_occured == true)
+		ret = 1;
+	pthread_mutex_unlock(&philo->stats->death_lock);
+	return (ret);
+}
 
 int	end_monitoring(t_gen_stats *stats, pthread_t *monitor)
 {

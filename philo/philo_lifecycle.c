@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/19 21:06:57 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/20 21:45:53 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,11 @@
 
 static void	philo_living(t_philo_id *philo, int status)
 {
-	pthread_mutex_lock(&philo->stats->death_lock);
-	if (philo->stats->death_occured)
+	if (check_death_occurence(philo))
 	{
-		pthread_mutex_unlock(&philo->stats->death_lock);
+		philo->death = true;
 		return ;
 	}
-	pthread_mutex_unlock(&philo->stats->death_lock);
 	if (status == eat)
 	{
 		ft_mutex_print(philo, 0, "is \033[0;33meating\033[0m");
@@ -45,18 +43,15 @@ static void	philo_action(t_philo_id *philo, int status)
 {
 	long long	time;
 
-	pthread_mutex_lock(&philo->stats->death_lock);
-	if (philo->stats->death_occured)
+	if (check_death_occurence(philo))
 	{
 		philo->death = true;
-		pthread_mutex_unlock(&philo->stats->death_lock);
 		return ;
 	}
-	pthread_mutex_unlock(&philo->stats->death_lock);
 	time = elapsed_time(philo->stats->start_time);
 	if (time - philo->last_meal > philo->stats->die)
 	{
-		if (philo->stats->death_occured)
+		if (check_death_occurence(philo))
 		{
 			philo->death = true;
 			return ;
@@ -72,21 +67,12 @@ static void	philo_action(t_philo_id *philo, int status)
 		philo_living(philo, status);
 }
 
-// philosophers life here
-void	*live_your_life(void *arg)
+static void	lifecycle(t_philo_id *philo)
 {
-	t_philo_id	*philo;
-
-	philo = (t_philo_id *)arg;
 	while (philo->death == false)
 	{
-		pthread_mutex_lock(&philo->stats->death_lock);
-		if (philo->stats->death_occured == true)
-		{
-			pthread_mutex_unlock(&philo->stats->death_lock);
+		if (check_death_occurence(philo))
 			break ;
-		}
-		pthread_mutex_unlock(&philo->stats->death_lock);
 		if (grab_forks(philo))
 		{
 			philo_action(philo, think);
@@ -103,5 +89,22 @@ void	*live_your_life(void *arg)
 			pthread_mutex_unlock(&philo->stats->death_lock);
 		}
 	}
+}
+
+// philosophers life here
+void	*live_your_life(void *arg)
+{
+	t_philo_id	*philo;
+
+	philo = (t_philo_id *)arg;
+	if (philo->stats->num_philos == 1)
+	{
+		ft_mutex_print(philo, 0, "has \033[0;31mdied\033[0m");
+		pthread_mutex_lock(&philo->stats->death_lock);
+		philo->stats->death_occured = true;
+		philo->death = true;
+		pthread_mutex_unlock(&philo->stats->death_lock);
+	}
+	lifecycle(philo);
 	return (NULL);
 }

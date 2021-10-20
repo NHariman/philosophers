@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/19 18:31:16 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/20 22:00:23 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,7 +36,7 @@ static int	init_philo_lifecycle(t_philo_id *philo, t_gen_stats *stat,
 				&philo[i].tid, NULL, &live_your_life, (void *)&philo[i]);
 		if (error)
 			return (1);
-		pthread_detach(philo[i].tid);
+		pthread_join(philo[i].tid, NULL);
 		usleep(1000);
 		i++;
 	}
