@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/09 22:01:48 by niks          #+#    #+#                 */
-/*   Updated: 2021/08/30 15:04:12 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/21 15:58:12 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,9 +26,9 @@ int	is_space(int c)
 	return (0);
 }
 
-int	is_negative(int i)
+int	is_neg_or_zero(int i)
 {
-	if (i < 0)
+	if (i <= 0)
 		return (1);
 	return (0);
 }

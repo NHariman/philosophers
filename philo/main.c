@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/19 18:41:26 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/21 18:44:13 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ static int	ft_invalid_input(void)
 static int	ft_invalid_number(void)
 {
 	ft_putstr_fd("Invalid Number.\n", 2);
-	ft_putstr_fd("Do not use negative numbers or input anything", 2);
+	ft_putstr_fd("Do not use negative numbers, 0 or input anything ", 2);
 	ft_putstr_fd("that isn't just digits 0-9.\n", 2);
 	return (0);
 }
@@ -44,9 +44,9 @@ static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
 		stats->must_eat = ft_atoll(av[5]);
 	else
 		stats->must_eat = -2;
-	if (is_negative(stats->num_philos) || is_negative(stats->die)
-		|| is_negative(stats->eat) || is_negative(stats->sleep)
-		|| (ac == 6 && is_negative(stats->must_eat)))
+	if (is_neg_or_zero(stats->num_philos) || is_neg_or_zero(stats->die)
+		|| is_neg_or_zero(stats->eat) || is_neg_or_zero(stats->sleep)
+		|| (ac == 6 && is_neg_or_zero(stats->must_eat)))
 		return (ft_invalid_number());
 	return (1);
 }

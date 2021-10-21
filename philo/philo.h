@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/20 20:31:36 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/21 16:12:41 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,7 +63,7 @@ typedef struct s_philo_id
 
 int			is_digit(int c);
 int			is_space(int c);
-int			is_negative(int i);
+int			is_neg_or_zero(int i);
 void		ft_putstr_fd(char *str, int fd);
 int			ft_prnt_err(char *str);
 int			ft_strlen(char *str);
@@ -84,6 +84,7 @@ void		*monitoring_system(void *args);
 int			end_monitoring(t_gen_stats *stats, pthread_t *monitor);
 void		*live_your_life(void *arg);
 int			check_death_occurence(t_philo_id *philo);
+int			check_death(t_philo_id *philo);
 
 // mutex
 int			destroy_mutex_locks(t_gen_stats *stats);
