@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/21 16:12:41 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/26 22:22:36 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@
 # include <sys/time.h>
 # include <pthread.h>
 # include <stdbool.h>
+# include <stdint.h>
 
 enum	e_actions{
 	eat,
@@ -39,10 +40,12 @@ typedef struct s_gen_stats
 	pthread_mutex_t	*lock;
 	pthread_mutex_t	print_lock;
 	pthread_mutex_t	death_lock;
+	pthread_mutex_t	eat_lock;
 	long long		die;
 	long long		eat;
 	long long		sleep;
 	long long		must_eat;
+	long long		done_eating;
 	long long		start_time;
 	bool			death_occured;
 }				t_gen_stats;
@@ -50,6 +53,7 @@ typedef struct s_gen_stats
 typedef struct s_philo_id
 {
 	pthread_t		tid;
+	pthread_mutex_t	die_lock;
 	long long		id;
 	long long		last_meal;
 	t_gen_stats		*stats;
@@ -75,6 +79,7 @@ int			ft_mutex_print(t_philo_id *philo, int ret, char *action);
 */
 long long	get_time(void);
 long long	elapsed_time(long long start_time);
+void		mesleep(unsigned long ms);
 
 /*
 ** Philo functions
@@ -83,6 +88,8 @@ int			setup_philos(t_gen_stats *stats);
 void		*monitoring_system(void *args);
 int			end_monitoring(t_gen_stats *stats, pthread_t *monitor);
 void		*live_your_life(void *arg);
+void		*life_support(void *args);
+int			call_grimreaper(t_philo_id *philo);
 int			check_death_occurence(t_philo_id *philo);
 int			check_death(t_philo_id *philo);
 

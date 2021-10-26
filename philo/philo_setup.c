@@ -6,19 +6,22 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/21 18:44:42 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/26 22:24:12 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-static void	init_philo_vars(t_philo_id *philo, t_gen_stats *stats, long long i)
+static int	init_philo_vars(t_philo_id *philo, t_gen_stats *stats, long long i)
 {
 	philo->id = i;
-	philo->last_meal = 0;
+	philo->last_meal = -1;
 	philo->meal_count = 0;
 	philo->stats = stats;
 	philo->death = false;
+	if (pthread_mutex_init(&philo->die_lock, NULL) != 0)
+		return (ft_prnt_err("Error\nMutex init failure.\n"));
+	return (0);
 }
 
 static int	init_philo_lifecycle(t_philo_id *philo, t_gen_stats *stat,
@@ -31,9 +34,8 @@ static int	init_philo_lifecycle(t_philo_id *philo, t_gen_stats *stat,
 	error = 0;
 	while (i < num_philos)
 	{
-		init_philo_vars(&philo[i], stat, i);
-		if (i == num_philos - 2)
-			usleep(2000);
+		if (init_philo_vars(&philo[i], stat, i))
+			return (1);
 		error = pthread_create(
 				&philo[i].tid, NULL, &live_your_life, (void *)&philo[i]);
 		if (error)

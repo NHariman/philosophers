@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:29:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/21 18:44:13 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/26 19:53:21 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ static int	ft_fill_stats(t_gen_stats *stats, char **av, int ac)
 	stats->eat = ft_atoll(av[3]);
 	stats->sleep = ft_atoll(av[4]);
 	stats->start_time = get_time();
+	stats->done_eating = 0;
 	stats->death_occured = false;
 	if (ac == 6)
 		stats->must_eat = ft_atoll(av[5]);

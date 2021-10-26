@@ -6,7 +6,7 @@
 #    By: nhariman <nhariman@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/31 23:42:48 by nhariman      #+#    #+#                  #
-#    Updated: 2021/10/20 21:50:42 by nhariman      ########   odam.nl          #
+#    Updated: 2021/10/26 22:05:55 by nhariman      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -21,6 +21,7 @@ C_FILES = main.c \
 		philo_lifecycle.c \
 		philo_monitoring.c \
 		philo_mutex.c \
+		philo_death.c \
 		philo_setup.c
 
 O_FILES = $(C_FILES:.c=.o)
