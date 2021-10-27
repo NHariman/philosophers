@@ -1,0 +1,1902 @@
+[1] Philosopher 1 has [0;34mtaken a fork[0m
+[1] Philosopher 1 is [0;33meating[0m
+[3] Philosopher 3 has [0;34mtaken a fork[0m
+[3] Philosopher 3 is [0;33meating[0m
+[5] Philosopher 5 has [0;34mtaken a fork[0m
+[5] Philosopher 5 is [0;33meating[0m
+[7] Philosopher 7 has [0;34mtaken a fork[0m
+[7] Philosopher 7 is [0;33meating[0m
+[9] Philosopher 9 has [0;34mtaken a fork[0m
+[9] Philosopher 9 is [0;33meating[0m
+[12] Philosopher 11 has [0;34mtaken a fork[0m
+[12] Philosopher 11 is [0;33meating[0m
+[14] Philosopher 13 has [0;34mtaken a fork[0m
+[14] Philosopher 13 is [0;33meating[0m
+[17] Philosopher 15 has [0;34mtaken a fork[0m
+[17] Philosopher 15 is [0;33meating[0m
+[19] Philosopher 17 has [0;34mtaken a fork[0m
+[19] Philosopher 17 is [0;33meating[0m
+[21] Philosopher 19 has [0;34mtaken a fork[0m
+[21] Philosopher 19 is [0;33meating[0m
+[24] Philosopher 21 has [0;34mtaken a fork[0m
+[24] Philosopher 21 is [0;33meating[0m
+[26] Philosopher 23 has [0;34mtaken a fork[0m
+[26] Philosopher 23 is [0;33meating[0m
+[28] Philosopher 25 has [0;34mtaken a fork[0m
+[28] Philosopher 25 is [0;33meating[0m
+[31] Philosopher 27 has [0;34mtaken a fork[0m
+[31] Philosopher 27 is [0;33meating[0m
+[33] Philosopher 29 has [0;34mtaken a fork[0m
+[33] Philosopher 29 is [0;33meating[0m
+[35] Philosopher 31 has [0;34mtaken a fork[0m
+[35] Philosopher 31 is [0;33meating[0m
+[38] Philosopher 33 has [0;34mtaken a fork[0m
+[38] Philosopher 33 is [0;33meating[0m
+[40] Philosopher 35 has [0;34mtaken a fork[0m
+[40] Philosopher 35 is [0;33meating[0m
+[42] Philosopher 37 has [0;34mtaken a fork[0m
+[42] Philosopher 37 is [0;33meating[0m
+[45] Philosopher 39 has [0;34mtaken a fork[0m
+[45] Philosopher 39 is [0;33meating[0m
+[47] Philosopher 41 has [0;34mtaken a fork[0m
+[47] Philosopher 41 is [0;33meating[0m
+[49] Philosopher 43 has [0;34mtaken a fork[0m
+[49] Philosopher 43 is [0;33meating[0m
+[52] Philosopher 45 has [0;34mtaken a fork[0m
+[52] Philosopher 45 is [0;33meating[0m
+[54] Philosopher 47 has [0;34mtaken a fork[0m
+[54] Philosopher 47 is [0;33meating[0m
+[56] Philosopher 49 has [0;34mtaken a fork[0m
+[57] Philosopher 49 is [0;33meating[0m
+[59] Philosopher 51 has [0;34mtaken a fork[0m
+[59] Philosopher 51 is [0;33meating[0m
+[62] Philosopher 53 has [0;34mtaken a fork[0m
+[62] Philosopher 53 is [0;33meating[0m
+[64] Philosopher 55 has [0;34mtaken a fork[0m
+[64] Philosopher 55 is [0;33meating[0m
+[66] Philosopher 57 has [0;34mtaken a fork[0m
+[66] Philosopher 57 is [0;33meating[0m
+[69] Philosopher 59 has [0;34mtaken a fork[0m
+[69] Philosopher 59 is [0;33meating[0m
+[71] Philosopher 61 has [0;34mtaken a fork[0m
+[71] Philosopher 61 is [0;33meating[0m
+[74] Philosopher 63 has [0;34mtaken a fork[0m
+[74] Philosopher 63 is [0;33meating[0m
+[76] Philosopher 65 has [0;34mtaken a fork[0m
+[76] Philosopher 65 is [0;33meating[0m
+[79] Philosopher 67 has [0;34mtaken a fork[0m
+[79] Philosopher 67 is [0;33meating[0m
+[81] Philosopher 69 has [0;34mtaken a fork[0m
+[81] Philosopher 69 is [0;33meating[0m
+[83] Philosopher 71 has [0;34mtaken a fork[0m
+[83] Philosopher 71 is [0;33meating[0m
+[86] Philosopher 73 has [0;34mtaken a fork[0m
+[86] Philosopher 73 is [0;33meating[0m
+[88] Philosopher 75 has [0;34mtaken a fork[0m
+[88] Philosopher 75 is [0;33meating[0m
+[91] Philosopher 77 has [0;34mtaken a fork[0m
+[91] Philosopher 77 is [0;33meating[0m
+[93] Philosopher 79 has [0;34mtaken a fork[0m
+[93] Philosopher 79 is [0;33meating[0m
+[96] Philosopher 81 has [0;34mtaken a fork[0m
+[96] Philosopher 81 is [0;33meating[0m
+[98] Philosopher 83 has [0;34mtaken a fork[0m
+[98] Philosopher 83 is [0;33meating[0m
+[101] Philosopher 85 has [0;34mtaken a fork[0m
+[101] Philosopher 85 is [0;33meating[0m
+[103] Philosopher 87 has [0;34mtaken a fork[0m
+[103] Philosopher 87 is [0;33meating[0m
+[106] Philosopher 89 has [0;34mtaken a fork[0m
+[106] Philosopher 89 is [0;33meating[0m
+[108] Philosopher 91 has [0;34mtaken a fork[0m
+[108] Philosopher 91 is [0;33meating[0m
+[111] Philosopher 93 has [0;34mtaken a fork[0m
+[111] Philosopher 93 is [0;33meating[0m
+[113] Philosopher 95 has [0;34mtaken a fork[0m
+[113] Philosopher 95 is [0;33meating[0m
+[116] Philosopher 97 has [0;34mtaken a fork[0m
+[116] Philosopher 97 is [0;33meating[0m
+[118] Philosopher 99 has [0;34mtaken a fork[0m
+[118] Philosopher 99 is [0;33meating[0m
+[201] Philosopher 1 is [0;36msleeping[0m
+[203] Philosopher 3 is [0;36msleeping[0m
+[203] Philosopher 2 has [0;34mtaken a fork[0m
+[203] Philosopher 2 is [0;33meating[0m
+[206] Philosopher 5 is [0;36msleeping[0m
+[206] Philosopher 4 has [0;34mtaken a fork[0m
+[206] Philosopher 4 is [0;33meating[0m
+[207] Philosopher 7 is [0;36msleeping[0m
+[207] Philosopher 6 has [0;34mtaken a fork[0m
+[207] Philosopher 6 is [0;33meating[0m
+[209] Philosopher 9 is [0;36msleeping[0m
+[209] Philosopher 8 has [0;34mtaken a fork[0m
+[209] Philosopher 8 is [0;33meating[0m
+[212] Philosopher 11 is [0;36msleeping[0m
+[212] Philosopher 10 has [0;34mtaken a fork[0m
+[212] Philosopher 10 is [0;33meating[0m
+[214] Philosopher 13 is [0;36msleeping[0m
+[214] Philosopher 12 has [0;34mtaken a fork[0m
+[214] Philosopher 12 is [0;33meating[0m
+[217] Philosopher 15 is [0;36msleeping[0m
+[217] Philosopher 14 has [0;34mtaken a fork[0m
+[217] Philosopher 14 is [0;33meating[0m
+[219] Philosopher 17 is [0;36msleeping[0m
+[219] Philosopher 16 has [0;34mtaken a fork[0m
+[219] Philosopher 16 is [0;33meating[0m
+[221] Philosopher 19 is [0;36msleeping[0m
+[221] Philosopher 18 has [0;34mtaken a fork[0m
+[221] Philosopher 18 is [0;33meating[0m
+[224] Philosopher 21 is [0;36msleeping[0m
+[224] Philosopher 20 has [0;34mtaken a fork[0m
+[224] Philosopher 20 is [0;33meating[0m
+[226] Philosopher 23 is [0;36msleeping[0m
+[226] Philosopher 22 has [0;34mtaken a fork[0m
+[226] Philosopher 22 is [0;33meating[0m
+[228] Philosopher 25 is [0;36msleeping[0m
+[228] Philosopher 24 has [0;34mtaken a fork[0m
+[228] Philosopher 24 is [0;33meating[0m
+[231] Philosopher 27 is [0;36msleeping[0m
+[231] Philosopher 26 has [0;34mtaken a fork[0m
+[231] Philosopher 26 is [0;33meating[0m
+[233] Philosopher 29 is [0;36msleeping[0m
+[233] Philosopher 28 has [0;34mtaken a fork[0m
+[233] Philosopher 28 is [0;33meating[0m
+[235] Philosopher 31 is [0;36msleeping[0m
+[235] Philosopher 30 has [0;34mtaken a fork[0m
+[235] Philosopher 30 is [0;33meating[0m
+[238] Philosopher 33 is [0;36msleeping[0m
+[238] Philosopher 32 has [0;34mtaken a fork[0m
+[238] Philosopher 32 is [0;33meating[0m
+[240] Philosopher 35 is [0;36msleeping[0m
+[240] Philosopher 34 has [0;34mtaken a fork[0m
+[240] Philosopher 34 is [0;33meating[0m
+[242] Philosopher 37 is [0;36msleeping[0m
+[242] Philosopher 36 has [0;34mtaken a fork[0m
+[242] Philosopher 36 is [0;33meating[0m
+[245] Philosopher 39 is [0;36msleeping[0m
+[245] Philosopher 38 has [0;34mtaken a fork[0m
+[245] Philosopher 38 is [0;33meating[0m
+[247] Philosopher 41 is [0;36msleeping[0m
+[247] Philosopher 40 has [0;34mtaken a fork[0m
+[247] Philosopher 40 is [0;33meating[0m
+[249] Philosopher 43 is [0;36msleeping[0m
+[249] Philosopher 42 has [0;34mtaken a fork[0m
+[249] Philosopher 42 is [0;33meating[0m
+[252] Philosopher 45 is [0;36msleeping[0m
+[252] Philosopher 44 has [0;34mtaken a fork[0m
+[252] Philosopher 44 is [0;33meating[0m
+[254] Philosopher 47 is [0;36msleeping[0m
+[254] Philosopher 46 has [0;34mtaken a fork[0m
+[254] Philosopher 46 is [0;33meating[0m
+[257] Philosopher 49 is [0;36msleeping[0m
+[257] Philosopher 48 has [0;34mtaken a fork[0m
+[257] Philosopher 48 is [0;33meating[0m
+[259] Philosopher 51 is [0;36msleeping[0m
+[259] Philosopher 50 has [0;34mtaken a fork[0m
+[259] Philosopher 50 is [0;33meating[0m
+[262] Philosopher 53 is [0;36msleeping[0m
+[262] Philosopher 52 has [0;34mtaken a fork[0m
+[262] Philosopher 52 is [0;33meating[0m
+[264] Philosopher 55 is [0;36msleeping[0m
+[264] Philosopher 54 has [0;34mtaken a fork[0m
+[264] Philosopher 54 is [0;33meating[0m
+[266] Philosopher 57 is [0;36msleeping[0m
+[266] Philosopher 56 has [0;34mtaken a fork[0m
+[266] Philosopher 56 is [0;33meating[0m
+[269] Philosopher 59 is [0;36msleeping[0m
+[269] Philosopher 58 has [0;34mtaken a fork[0m
+[269] Philosopher 58 is [0;33meating[0m
+[271] Philosopher 61 is [0;36msleeping[0m
+[271] Philosopher 60 has [0;34mtaken a fork[0m
+[271] Philosopher 60 is [0;33meating[0m
+[274] Philosopher 63 is [0;36msleeping[0m
+[274] Philosopher 62 has [0;34mtaken a fork[0m
+[274] Philosopher 62 is [0;33meating[0m
+[276] Philosopher 65 is [0;36msleeping[0m
+[276] Philosopher 64 has [0;34mtaken a fork[0m
+[276] Philosopher 64 is [0;33meating[0m
+[279] Philosopher 67 is [0;36msleeping[0m
+[279] Philosopher 66 has [0;34mtaken a fork[0m
+[279] Philosopher 66 is [0;33meating[0m
+[281] Philosopher 69 is [0;36msleeping[0m
+[281] Philosopher 68 has [0;34mtaken a fork[0m
+[281] Philosopher 68 is [0;33meating[0m
+[283] Philosopher 71 is [0;36msleeping[0m
+[283] Philosopher 70 has [0;34mtaken a fork[0m
+[283] Philosopher 70 is [0;33meating[0m
+[286] Philosopher 73 is [0;36msleeping[0m
+[286] Philosopher 72 has [0;34mtaken a fork[0m
+[286] Philosopher 72 is [0;33meating[0m
+[288] Philosopher 75 is [0;36msleeping[0m
+[288] Philosopher 74 has [0;34mtaken a fork[0m
+[288] Philosopher 74 is [0;33meating[0m
+[291] Philosopher 77 is [0;36msleeping[0m
+[291] Philosopher 76 has [0;34mtaken a fork[0m
+[291] Philosopher 76 is [0;33meating[0m
+[293] Philosopher 79 is [0;36msleeping[0m
+[293] Philosopher 78 has [0;34mtaken a fork[0m
+[293] Philosopher 78 is [0;33meating[0m
+[296] Philosopher 81 is [0;36msleeping[0m
+[296] Philosopher 80 has [0;34mtaken a fork[0m
+[296] Philosopher 80 is [0;33meating[0m
+[298] Philosopher 83 is [0;36msleeping[0m
+[298] Philosopher 82 has [0;34mtaken a fork[0m
+[298] Philosopher 82 is [0;33meating[0m
+[301] Philosopher 85 is [0;36msleeping[0m
+[301] Philosopher 84 has [0;34mtaken a fork[0m
+[301] Philosopher 84 is [0;33meating[0m
+[303] Philosopher 87 is [0;36msleeping[0m
+[303] Philosopher 86 has [0;34mtaken a fork[0m
+[303] Philosopher 86 is [0;33meating[0m
+[306] Philosopher 89 is [0;36msleeping[0m
+[306] Philosopher 88 has [0;34mtaken a fork[0m
+[306] Philosopher 88 is [0;33meating[0m
+[308] Philosopher 91 is [0;36msleeping[0m
+[308] Philosopher 90 has [0;34mtaken a fork[0m
+[308] Philosopher 90 is [0;33meating[0m
+[311] Philosopher 93 is [0;36msleeping[0m
+[311] Philosopher 92 has [0;34mtaken a fork[0m
+[311] Philosopher 92 is [0;33meating[0m
+[313] Philosopher 95 is [0;36msleeping[0m
+[313] Philosopher 94 has [0;34mtaken a fork[0m
+[313] Philosopher 94 is [0;33meating[0m
+[316] Philosopher 97 is [0;36msleeping[0m
+[316] Philosopher 96 has [0;34mtaken a fork[0m
+[316] Philosopher 96 is [0;33meating[0m
+[318] Philosopher 99 is [0;36msleeping[0m
+[318] Philosopher 100 has [0;34mtaken a fork[0m
+[318] Philosopher 100 is [0;33meating[0m
+[318] Philosopher 98 has [0;34mtaken a fork[0m
+[318] Philosopher 98 is [0;33meating[0m
+[401] Philosopher 1 is [0;32mthinking[0m
+[403] Philosopher 3 is [0;32mthinking[0m
+[403] Philosopher 2 is [0;36msleeping[0m
+[406] Philosopher 4 is [0;36msleeping[0m
+[406] Philosopher 5 is [0;32mthinking[0m
+[406] Philosopher 3 has [0;34mtaken a fork[0m
+[406] Philosopher 3 is [0;33meating[0m
+[407] Philosopher 6 is [0;36msleeping[0m
+[407] Philosopher 5 has [0;34mtaken a fork[0m
+[407] Philosopher 5 is [0;33meating[0m
+[407] Philosopher 7 is [0;32mthinking[0m
+[409] Philosopher 8 is [0;36msleeping[0m
+[409] Philosopher 9 is [0;32mthinking[0m
+[410] Philosopher 7 has [0;34mtaken a fork[0m
+[410] Philosopher 7 is [0;33meating[0m
+[412] Philosopher 10 is [0;36msleeping[0m
+[412] Philosopher 9 has [0;34mtaken a fork[0m
+[412] Philosopher 9 is [0;33meating[0m
+[412] Philosopher 11 is [0;32mthinking[0m
+[414] Philosopher 13 is [0;32mthinking[0m
+[414] Philosopher 12 is [0;36msleeping[0m
+[414] Philosopher 11 has [0;34mtaken a fork[0m
+[415] Philosopher 11 is [0;33meating[0m
+[417] Philosopher 14 is [0;36msleeping[0m
+[417] Philosopher 13 has [0;34mtaken a fork[0m
+[417] Philosopher 13 is [0;33meating[0m
+[417] Philosopher 15 is [0;32mthinking[0m
+[419] Philosopher 16 is [0;36msleeping[0m
+[419] Philosopher 17 is [0;32mthinking[0m
+[420] Philosopher 15 has [0;34mtaken a fork[0m
+[420] Philosopher 15 is [0;33meating[0m
+[421] Philosopher 19 is [0;32mthinking[0m
+[421] Philosopher 18 is [0;36msleeping[0m
+[421] Philosopher 17 has [0;34mtaken a fork[0m
+[421] Philosopher 17 is [0;33meating[0m
+[424] Philosopher 21 is [0;32mthinking[0m
+[424] Philosopher 20 is [0;36msleeping[0m
+[424] Philosopher 19 has [0;34mtaken a fork[0m
+[424] Philosopher 19 is [0;33meating[0m
+[426] Philosopher 22 is [0;36msleeping[0m
+[426] Philosopher 23 is [0;32mthinking[0m
+[426] Philosopher 21 has [0;34mtaken a fork[0m
+[426] Philosopher 21 is [0;33meating[0m
+[428] Philosopher 24 is [0;36msleeping[0m
+[428] Philosopher 23 has [0;34mtaken a fork[0m
+[428] Philosopher 23 is [0;33meating[0m
+[428] Philosopher 25 is [0;32mthinking[0m
+[431] Philosopher 26 is [0;36msleeping[0m
+[431] Philosopher 27 is [0;32mthinking[0m
+[431] Philosopher 25 has [0;34mtaken a fork[0m
+[431] Philosopher 25 is [0;33meating[0m
+[433] Philosopher 28 is [0;36msleeping[0m
+[433] Philosopher 29 is [0;32mthinking[0m
+[433] Philosopher 27 has [0;34mtaken a fork[0m
+[433] Philosopher 27 is [0;33meating[0m
+[435] Philosopher 30 is [0;36msleeping[0m
+[435] Philosopher 31 is [0;32mthinking[0m
+[435] Philosopher 29 has [0;34mtaken a fork[0m
+[435] Philosopher 29 is [0;33meating[0m
+[438] Philosopher 32 is [0;36msleeping[0m
+[438] Philosopher 31 has [0;34mtaken a fork[0m
+[438] Philosopher 31 is [0;33meating[0m
+[438] Philosopher 33 is [0;32mthinking[0m
+[440] Philosopher 34 is [0;36msleeping[0m
+[440] Philosopher 35 is [0;32mthinking[0m
+[441] Philosopher 33 has [0;34mtaken a fork[0m
+[441] Philosopher 33 is [0;33meating[0m
+[442] Philosopher 37 is [0;32mthinking[0m
+[442] Philosopher 36 is [0;36msleeping[0m
+[443] Philosopher 35 has [0;34mtaken a fork[0m
+[443] Philosopher 35 is [0;33meating[0m
+[445] Philosopher 38 is [0;36msleeping[0m
+[445] Philosopher 37 has [0;34mtaken a fork[0m
+[445] Philosopher 37 is [0;33meating[0m
+[445] Philosopher 39 is [0;32mthinking[0m
+[447] Philosopher 41 is [0;32mthinking[0m
+[447] Philosopher 40 is [0;36msleeping[0m
+[447] Philosopher 39 has [0;34mtaken a fork[0m
+[447] Philosopher 39 is [0;33meating[0m
+[449] Philosopher 43 is [0;32mthinking[0m
+[449] Philosopher 42 is [0;36msleeping[0m
+[449] Philosopher 41 has [0;34mtaken a fork[0m
+[449] Philosopher 41 is [0;33meating[0m
+[452] Philosopher 44 is [0;36msleeping[0m
+[452] Philosopher 43 has [0;34mtaken a fork[0m
+[452] Philosopher 43 is [0;33meating[0m
+[452] Philosopher 45 is [0;32mthinking[0m
+[454] Philosopher 47 is [0;32mthinking[0m
+[454] Philosopher 46 is [0;36msleeping[0m
+[454] Philosopher 45 has [0;34mtaken a fork[0m
+[454] Philosopher 45 is [0;33meating[0m
+[457] Philosopher 48 is [0;36msleeping[0m
+[457] Philosopher 47 has [0;34mtaken a fork[0m
+[457] Philosopher 47 is [0;33meating[0m
+[457] Philosopher 49 is [0;32mthinking[0m
+[459] Philosopher 50 is [0;36msleeping[0m
+[459] Philosopher 51 is [0;32mthinking[0m
+[459] Philosopher 49 has [0;34mtaken a fork[0m
+[459] Philosopher 49 is [0;33meating[0m
+[462] Philosopher 52 is [0;36msleeping[0m
+[462] Philosopher 51 has [0;34mtaken a fork[0m
+[462] Philosopher 51 is [0;33meating[0m
+[462] Philosopher 53 is [0;32mthinking[0m
+[464] Philosopher 54 is [0;36msleeping[0m
+[464] Philosopher 53 has [0;34mtaken a fork[0m
+[464] Philosopher 53 is [0;33meating[0m
+[464] Philosopher 55 is [0;32mthinking[0m
+[466] Philosopher 56 is [0;36msleeping[0m
+[466] Philosopher 55 has [0;34mtaken a fork[0m
+[466] Philosopher 55 is [0;33meating[0m
+[466] Philosopher 57 is [0;32mthinking[0m
+[469] Philosopher 59 is [0;32mthinking[0m
+[469] Philosopher 58 is [0;36msleeping[0m
+[470] Philosopher 57 has [0;34mtaken a fork[0m
+[470] Philosopher 57 is [0;33meating[0m
+[471] Philosopher 60 is [0;36msleeping[0m
+[471] Philosopher 61 is [0;32mthinking[0m
+[471] Philosopher 59 has [0;34mtaken a fork[0m
+[471] Philosopher 59 is [0;33meating[0m
+[474] Philosopher 63 is [0;32mthinking[0m
+[474] Philosopher 62 is [0;36msleeping[0m
+[474] Philosopher 61 has [0;34mtaken a fork[0m
+[474] Philosopher 61 is [0;33meating[0m
+[476] Philosopher 64 is [0;36msleeping[0m
+[476] Philosopher 65 is [0;32mthinking[0m
+[476] Philosopher 63 has [0;34mtaken a fork[0m
+[476] Philosopher 63 is [0;33meating[0m
+[479] Philosopher 67 is [0;32mthinking[0m
+[479] Philosopher 66 is [0;36msleeping[0m
+[479] Philosopher 65 has [0;34mtaken a fork[0m
+[479] Philosopher 65 is [0;33meating[0m
+[481] Philosopher 69 is [0;32mthinking[0m
+[482] Philosopher 68 is [0;36msleeping[0m
+[482] Philosopher 67 has [0;34mtaken a fork[0m
+[482] Philosopher 67 is [0;33meating[0m
+[483] Philosopher 70 is [0;36msleeping[0m
+[483] Philosopher 71 is [0;32mthinking[0m
+[483] Philosopher 69 has [0;34mtaken a fork[0m
+[483] Philosopher 69 is [0;33meating[0m
+[486] Philosopher 73 is [0;32mthinking[0m
+[487] Philosopher 72 is [0;36msleeping[0m
+[487] Philosopher 71 has [0;34mtaken a fork[0m
+[487] Philosopher 71 is [0;33meating[0m
+[488] Philosopher 75 is [0;32mthinking[0m
+[489] Philosopher 74 is [0;36msleeping[0m
+[489] Philosopher 73 has [0;34mtaken a fork[0m
+[489] Philosopher 73 is [0;33meating[0m
+[491] Philosopher 76 is [0;36msleeping[0m
+[491] Philosopher 77 is [0;32mthinking[0m
+[492] Philosopher 75 has [0;34mtaken a fork[0m
+[492] Philosopher 75 is [0;33meating[0m
+[493] Philosopher 79 is [0;32mthinking[0m
+[494] Philosopher 78 is [0;36msleeping[0m
+[494] Philosopher 77 has [0;34mtaken a fork[0m
+[494] Philosopher 77 is [0;33meating[0m
+[496] Philosopher 81 is [0;32mthinking[0m
+[497] Philosopher 80 is [0;36msleeping[0m
+[497] Philosopher 79 has [0;34mtaken a fork[0m
+[497] Philosopher 79 is [0;33meating[0m
+[498] Philosopher 83 is [0;32mthinking[0m
+[499] Philosopher 82 is [0;36msleeping[0m
+[499] Philosopher 81 has [0;34mtaken a fork[0m
+[499] Philosopher 81 is [0;33meating[0m
+[501] Philosopher 85 is [0;32mthinking[0m
+[502] Philosopher 84 is [0;36msleeping[0m
+[502] Philosopher 83 has [0;34mtaken a fork[0m
+[502] Philosopher 83 is [0;33meating[0m
+[503] Philosopher 87 is [0;32mthinking[0m
+[504] Philosopher 86 is [0;36msleeping[0m
+[504] Philosopher 85 has [0;34mtaken a fork[0m
+[504] Philosopher 85 is [0;33meating[0m
+[506] Philosopher 89 is [0;32mthinking[0m
+[507] Philosopher 88 is [0;36msleeping[0m
+[507] Philosopher 87 has [0;34mtaken a fork[0m
+[507] Philosopher 87 is [0;33meating[0m
+[508] Philosopher 91 is [0;32mthinking[0m
+[509] Philosopher 90 is [0;36msleeping[0m
+[509] Philosopher 89 has [0;34mtaken a fork[0m
+[509] Philosopher 89 is [0;33meating[0m
+[511] Philosopher 93 is [0;32mthinking[0m
+[512] Philosopher 92 is [0;36msleeping[0m
+[512] Philosopher 91 has [0;34mtaken a fork[0m
+[512] Philosopher 91 is [0;33meating[0m
+[513] Philosopher 95 is [0;32mthinking[0m
+[514] Philosopher 94 is [0;36msleeping[0m
+[514] Philosopher 93 has [0;34mtaken a fork[0m
+[514] Philosopher 93 is [0;33meating[0m
+[516] Philosopher 97 is [0;32mthinking[0m
+[517] Philosopher 96 is [0;36msleeping[0m
+[517] Philosopher 95 has [0;34mtaken a fork[0m
+[517] Philosopher 95 is [0;33meating[0m
+[518] Philosopher 99 is [0;32mthinking[0m
+[518] Philosopher 100 is [0;36msleeping[0m
+[518] Philosopher 1 has [0;34mtaken a fork[0m
+[518] Philosopher 1 is [0;33meating[0m
+[519] Philosopher 98 is [0;36msleeping[0m
+[519] Philosopher 99 has [0;34mtaken a fork[0m
+[519] Philosopher 99 is [0;33meating[0m
+[519] Philosopher 97 has [0;34mtaken a fork[0m
+[519] Philosopher 97 is [0;33meating[0m
+[603] Philosopher 2 is [0;32mthinking[0m
+[606] Philosopher 3 is [0;36msleeping[0m
+[606] Philosopher 4 is [0;32mthinking[0m
+[607] Philosopher 6 is [0;32mthinking[0m
+[607] Philosopher 5 is [0;36msleeping[0m
+[607] Philosopher 4 has [0;34mtaken a fork[0m
+[607] Philosopher 4 is [0;33meating[0m
+[609] Philosopher 8 is [0;32mthinking[0m
+[610] Philosopher 7 is [0;36msleeping[0m
+[610] Philosopher 6 has [0;34mtaken a fork[0m
+[610] Philosopher 6 is [0;33meating[0m
+[612] Philosopher 10 is [0;32mthinking[0m
+[612] Philosopher 9 is [0;36msleeping[0m
+[612] Philosopher 8 has [0;34mtaken a fork[0m
+[612] Philosopher 8 is [0;33meating[0m
+[614] Philosopher 12 is [0;32mthinking[0m
+[615] Philosopher 11 is [0;36msleeping[0m
+[615] Philosopher 10 has [0;34mtaken a fork[0m
+[615] Philosopher 10 is [0;33meating[0m
+[617] Philosopher 14 is [0;32mthinking[0m
+[617] Philosopher 13 is [0;36msleeping[0m
+[617] Philosopher 12 has [0;34mtaken a fork[0m
+[617] Philosopher 12 is [0;33meating[0m
+[619] Philosopher 16 is [0;32mthinking[0m
+[620] Philosopher 15 is [0;36msleeping[0m
+[620] Philosopher 14 has [0;34mtaken a fork[0m
+[620] Philosopher 14 is [0;33meating[0m
+[621] Philosopher 17 is [0;36msleeping[0m
+[621] Philosopher 16 has [0;34mtaken a fork[0m
+[621] Philosopher 16 is [0;33meating[0m
+[621] Philosopher 18 is [0;32mthinking[0m
+[624] Philosopher 19 is [0;36msleeping[0m
+[624] Philosopher 20 is [0;32mthinking[0m
+[625] Philosopher 18 has [0;34mtaken a fork[0m
+[625] Philosopher 18 is [0;33meating[0m
+[626] Philosopher 22 is [0;32mthinking[0m
+[626] Philosopher 21 is [0;36msleeping[0m
+[626] Philosopher 20 has [0;34mtaken a fork[0m
+[626] Philosopher 20 is [0;33meating[0m
+[628] Philosopher 23 is [0;36msleeping[0m
+[628] Philosopher 22 has [0;34mtaken a fork[0m
+[628] Philosopher 22 is [0;33meating[0m
+[631] Philosopher 26 is [0;32mthinking[0m
+[631] Philosopher 25 is [0;36msleeping[0m
+[631] Philosopher 24 is [0;32mthinking[0m
+[631] Philosopher 24 has [0;34mtaken a fork[0m
+[631] Philosopher 24 is [0;33meating[0m
+[633] Philosopher 28 is [0;32mthinking[0m
+[633] Philosopher 27 is [0;36msleeping[0m
+[633] Philosopher 26 has [0;34mtaken a fork[0m
+[633] Philosopher 26 is [0;33meating[0m
+[635] Philosopher 29 is [0;36msleeping[0m
+[635] Philosopher 28 has [0;34mtaken a fork[0m
+[635] Philosopher 28 is [0;33meating[0m
+[635] Philosopher 30 is [0;32mthinking[0m
+[638] Philosopher 31 is [0;36msleeping[0m
+[638] Philosopher 32 is [0;32mthinking[0m
+[638] Philosopher 30 has [0;34mtaken a fork[0m
+[638] Philosopher 30 is [0;33meating[0m
+[640] Philosopher 34 is [0;32mthinking[0m
+[641] Philosopher 33 is [0;36msleeping[0m
+[641] Philosopher 32 has [0;34mtaken a fork[0m
+[641] Philosopher 32 is [0;33meating[0m
+[642] Philosopher 36 is [0;32mthinking[0m
+[643] Philosopher 35 is [0;36msleeping[0m
+[643] Philosopher 34 has [0;34mtaken a fork[0m
+[643] Philosopher 34 is [0;33meating[0m
+[645] Philosopher 37 is [0;36msleeping[0m
+[645] Philosopher 38 is [0;32mthinking[0m
+[645] Philosopher 36 has [0;34mtaken a fork[0m
+[645] Philosopher 36 is [0;33meating[0m
+[647] Philosopher 39 is [0;36msleeping[0m
+[647] Philosopher 38 has [0;34mtaken a fork[0m
+[647] Philosopher 38 is [0;33meating[0m
+[649] Philosopher 41 is [0;36msleeping[0m
+[652] Philosopher 43 is [0;36msleeping[0m
+[652] Philosopher 44 is [0;32mthinking[0m
+[652] Philosopher 42 is [0;32mthinking[0m
+[652] Philosopher 42 has [0;34mtaken a fork[0m
+[652] Philosopher 42 is [0;33meating[0m
+[652] Philosopher 40 is [0;32mthinking[0m
+[652] Philosopher 40 has [0;34mtaken a fork[0m
+[652] Philosopher 40 is [0;33meating[0m
+[654] Philosopher 46 is [0;32mthinking[0m
+[654] Philosopher 45 is [0;36msleeping[0m
+[654] Philosopher 44 has [0;34mtaken a fork[0m
+[654] Philosopher 44 is [0;33meating[0m
+[657] Philosopher 48 is [0;32mthinking[0m
+[657] Philosopher 47 is [0;36msleeping[0m
+[657] Philosopher 46 has [0;34mtaken a fork[0m
+[657] Philosopher 46 is [0;33meating[0m
+[659] Philosopher 49 is [0;36msleeping[0m
+[659] Philosopher 48 has [0;34mtaken a fork[0m
+[659] Philosopher 48 is [0;33meating[0m
+[659] Philosopher 50 is [0;32mthinking[0m
+[662] Philosopher 51 is [0;36msleeping[0m
+[662] Philosopher 50 has [0;34mtaken a fork[0m
+[662] Philosopher 50 is [0;33meating[0m
+[662] Philosopher 52 is [0;32mthinking[0m
+[664] Philosopher 53 is [0;36msleeping[0m
+[664] Philosopher 52 has [0;34mtaken a fork[0m
+[664] Philosopher 52 is [0;33meating[0m
+[664] Philosopher 54 is [0;32mthinking[0m
+[666] Philosopher 56 is [0;32mthinking[0m
+[666] Philosopher 55 is [0;36msleeping[0m
+[666] Philosopher 54 has [0;34mtaken a fork[0m
+[666] Philosopher 54 is [0;33meating[0m
+[669] Philosopher 58 is [0;32mthinking[0m
+[671] Philosopher 60 is [0;32mthinking[0m
+[671] Philosopher 59 is [0;36msleeping[0m
+[672] Philosopher 57 is [0;36msleeping[0m
+[672] Philosopher 58 has [0;34mtaken a fork[0m
+[672] Philosopher 58 is [0;33meating[0m
+[672] Philosopher 56 has [0;34mtaken a fork[0m
+[672] Philosopher 56 is [0;33meating[0m
+[674] Philosopher 61 is [0;36msleeping[0m
+[674] Philosopher 60 has [0;34mtaken a fork[0m
+[674] Philosopher 60 is [0;33meating[0m
+[674] Philosopher 62 is [0;32mthinking[0m
+[676] Philosopher 64 is [0;32mthinking[0m
+[676] Philosopher 63 is [0;36msleeping[0m
+[676] Philosopher 62 has [0;34mtaken a fork[0m
+[676] Philosopher 62 is [0;33meating[0m
+[679] Philosopher 66 is [0;32mthinking[0m
+[680] Philosopher 65 is [0;36msleeping[0m
+[680] Philosopher 64 has [0;34mtaken a fork[0m
+[680] Philosopher 64 is [0;33meating[0m
+[682] Philosopher 68 is [0;32mthinking[0m
+[682] Philosopher 67 is [0;36msleeping[0m
+[682] Philosopher 66 has [0;34mtaken a fork[0m
+[682] Philosopher 66 is [0;33meating[0m
+[683] Philosopher 69 is [0;36msleeping[0m
+[683] Philosopher 70 is [0;32mthinking[0m
+[685] Philosopher 68 has [0;34mtaken a fork[0m
+[685] Philosopher 68 is [0;33meating[0m
+[687] Philosopher 72 is [0;32mthinking[0m
+[687] Philosopher 71 is [0;36msleeping[0m
+[687] Philosopher 70 has [0;34mtaken a fork[0m
+[687] Philosopher 70 is [0;33meating[0m
+[689] Philosopher 74 is [0;32mthinking[0m
+[689] Philosopher 73 is [0;36msleeping[0m
+[689] Philosopher 72 has [0;34mtaken a fork[0m
+[689] Philosopher 72 is [0;33meating[0m
+[691] Philosopher 76 is [0;32mthinking[0m
+[692] Philosopher 75 is [0;36msleeping[0m
+[692] Philosopher 74 has [0;34mtaken a fork[0m
+[692] Philosopher 74 is [0;33meating[0m
+[694] Philosopher 77 is [0;36msleeping[0m
+[694] Philosopher 76 has [0;34mtaken a fork[0m
+[694] Philosopher 76 is [0;33meating[0m
+[697] Philosopher 80 is [0;32mthinking[0m
+[699] Philosopher 81 is [0;36msleeping[0m
+[699] Philosopher 82 is [0;32mthinking[0m
+[699] Philosopher 78 is [0;32mthinking[0m
+[702] Philosopher 80 has [0;34mtaken a fork[0m
+[702] Philosopher 80 is [0;33meating[0m
+[702] Philosopher 79 is [0;36msleeping[0m
+[702] Philosopher 83 is [0;36msleeping[0m
+[702] Philosopher 82 has [0;34mtaken a fork[0m
+[702] Philosopher 82 is [0;33meating[0m
+[704] Philosopher 85 is [0;36msleeping[0m
+[704] Philosopher 86 is [0;32mthinking[0m
+[705] Philosopher 78 has [0;34mtaken a fork[0m
+[705] Philosopher 78 is [0;33meating[0m
+[705] Philosopher 84 is [0;32mthinking[0m
+[705] Philosopher 84 has [0;34mtaken a fork[0m
+[705] Philosopher 84 is [0;33meating[0m
+[707] Philosopher 87 is [0;36msleeping[0m
+[707] Philosopher 86 has [0;34mtaken a fork[0m
+[707] Philosopher 86 is [0;33meating[0m
+[707] Philosopher 88 is [0;32mthinking[0m
+[709] Philosopher 89 is [0;36msleeping[0m
+[709] Philosopher 88 has [0;34mtaken a fork[0m
+[709] Philosopher 88 is [0;33meating[0m
+[709] Philosopher 90 is [0;32mthinking[0m
+[712] Philosopher 91 is [0;36msleeping[0m
+[712] Philosopher 92 is [0;32mthinking[0m
+[712] Philosopher 90 has [0;34mtaken a fork[0m
+[712] Philosopher 90 is [0;33meating[0m
+[714] Philosopher 93 is [0;36msleeping[0m
+[714] Philosopher 92 has [0;34mtaken a fork[0m
+[714] Philosopher 92 is [0;33meating[0m
+[714] Philosopher 94 is [0;32mthinking[0m
+[717] Philosopher 95 is [0;36msleeping[0m
+[717] Philosopher 96 is [0;32mthinking[0m
+[717] Philosopher 94 has [0;34mtaken a fork[0m
+[717] Philosopher 94 is [0;33meating[0m
+[718] Philosopher 100 is [0;32mthinking[0m
+[718] Philosopher 1 is [0;36msleeping[0m
+[718] Philosopher 2 has [0;34mtaken a fork[0m
+[718] Philosopher 2 is [0;33meating[0m
+[719] Philosopher 99 is [0;36msleeping[0m
+[719] Philosopher 100 has [0;34mtaken a fork[0m
+[719] Philosopher 100 is [0;33meating[0m
+[719] Philosopher 98 is [0;32mthinking[0m
+[719] Philosopher 97 is [0;36msleeping[0m
+[719] Philosopher 98 has [0;34mtaken a fork[0m
+[719] Philosopher 98 is [0;33meating[0m
+[719] Philosopher 96 has [0;34mtaken a fork[0m
+[719] Philosopher 96 is [0;33meating[0m
+[806] Philosopher 3 is [0;32mthinking[0m
+[807] Philosopher 5 is [0;32mthinking[0m
+[807] Philosopher 4 is [0;36msleeping[0m
+[810] Philosopher 6 is [0;36msleeping[0m
+[810] Philosopher 7 is [0;32mthinking[0m
+[810] Philosopher 5 has [0;34mtaken a fork[0m
+[810] Philosopher 5 is [0;33meating[0m
+[812] Philosopher 9 is [0;32mthinking[0m
+[812] Philosopher 8 is [0;36msleeping[0m
+[812] Philosopher 7 has [0;34mtaken a fork[0m
+[812] Philosopher 7 is [0;33meating[0m
+[815] Philosopher 11 is [0;32mthinking[0m
+[815] Philosopher 10 is [0;36msleeping[0m
+[815] Philosopher 9 has [0;34mtaken a fork[0m
+[815] Philosopher 9 is [0;33meating[0m
+[817] Philosopher 13 is [0;32mthinking[0m
+[817] Philosopher 12 is [0;36msleeping[0m
+[817] Philosopher 11 has [0;34mtaken a fork[0m
+[817] Philosopher 11 is [0;33meating[0m
+[820] Philosopher 15 is [0;32mthinking[0m
+[820] Philosopher 14 is [0;36msleeping[0m
+[820] Philosopher 13 has [0;34mtaken a fork[0m
+[820] Philosopher 13 is [0;33meating[0m
+[821] Philosopher 17 is [0;32mthinking[0m
+[821] Philosopher 16 is [0;36msleeping[0m
+[821] Philosopher 15 has [0;34mtaken a fork[0m
+[821] Philosopher 15 is [0;33meating[0m
+[824] Philosopher 19 is [0;32mthinking[0m
+[825] Philosopher 18 is [0;36msleeping[0m
+[825] Philosopher 17 has [0;34mtaken a fork[0m
+[825] Philosopher 17 is [0;33meating[0m
+[826] Philosopher 21 is [0;32mthinking[0m
+[826] Philosopher 20 is [0;36msleeping[0m
+[826] Philosopher 19 has [0;34mtaken a fork[0m
+[826] Philosopher 19 is [0;33meating[0m
+[828] Philosopher 22 is [0;36msleeping[0m
+[828] Philosopher 23 is [0;32mthinking[0m
+[828] Philosopher 21 has [0;34mtaken a fork[0m
+[828] Philosopher 21 is [0;33meating[0m
+[831] Philosopher 24 is [0;36msleeping[0m
+[831] Philosopher 23 has [0;34mtaken a fork[0m
+[831] Philosopher 23 is [0;33meating[0m
+[831] Philosopher 25 is [0;32mthinking[0m
+[833] Philosopher 27 is [0;32mthinking[0m
+[833] Philosopher 26 is [0;36msleeping[0m
+[833] Philosopher 25 has [0;34mtaken a fork[0m
+[833] Philosopher 25 is [0;33meating[0m
+[835] Philosopher 28 is [0;36msleeping[0m
+[835] Philosopher 27 has [0;34mtaken a fork[0m
+[835] Philosopher 27 is [0;33meating[0m
+[835] Philosopher 29 is [0;32mthinking[0m
+[838] Philosopher 31 is [0;32mthinking[0m
+[838] Philosopher 30 is [0;36msleeping[0m
+[838] Philosopher 29 has [0;34mtaken a fork[0m
+[838] Philosopher 29 is [0;33meating[0m
+[841] Philosopher 33 is [0;32mthinking[0m
+[841] Philosopher 32 is [0;36msleeping[0m
+[841] Philosopher 31 has [0;34mtaken a fork[0m
+[841] Philosopher 31 is [0;33meating[0m
+[843] Philosopher 34 is [0;36msleeping[0m
+[843] Philosopher 33 has [0;34mtaken a fork[0m
+[843] Philosopher 33 is [0;33meating[0m
+[843] Philosopher 35 is [0;32mthinking[0m
+[845] Philosopher 36 is [0;36msleeping[0m
+[845] Philosopher 35 has [0;34mtaken a fork[0m
+[845] Philosopher 35 is [0;33meating[0m
+[845] Philosopher 37 is [0;32mthinking[0m
+[847] Philosopher 39 is [0;32mthinking[0m
+[849] Philosopher 41 is [0;32mthinking[0m
+[852] Philosopher 43 is [0;32mthinking[0m
+[852] Philosopher 40 is [0;36msleeping[0m
+[852] Philosopher 42 is [0;36msleeping[0m
+[852] Philosopher 41 has [0;34mtaken a fork[0m
+[852] Philosopher 41 is [0;33meating[0m
+[854] Philosopher 44 is [0;36msleeping[0m
+[854] Philosopher 43 has [0;34mtaken a fork[0m
+[854] Philosopher 43 is [0;33meating[0m
+[854] Philosopher 45 is [0;32mthinking[0m
+[857] Philosopher 46 is [0;36msleeping[0m
+[857] Philosopher 47 is [0;32mthinking[0m
+[857] Philosopher 45 has [0;34mtaken a fork[0m
+[857] Philosopher 45 is [0;33meating[0m
+[859] Philosopher 48 is [0;36msleeping[0m
+[859] Philosopher 47 has [0;34mtaken a fork[0m
+[859] Philosopher 47 is [0;33meating[0m
+[859] Philosopher 49 is [0;32mthinking[0m
+[862] Philosopher 50 is [0;36msleeping[0m
+[862] Philosopher 51 is [0;32mthinking[0m
+[862] Philosopher 49 has [0;34mtaken a fork[0m
+[862] Philosopher 49 is [0;33meating[0m
+[864] Philosopher 53 is [0;32mthinking[0m
+[864] Philosopher 52 is [0;36msleeping[0m
+[864] Philosopher 51 has [0;34mtaken a fork[0m
+[864] Philosopher 51 is [0;33meating[0m
+[866] Philosopher 55 is [0;32mthinking[0m
+[866] Philosopher 54 is [0;36msleeping[0m
+[866] Philosopher 53 has [0;34mtaken a fork[0m
+[866] Philosopher 53 is [0;33meating[0m
+[871] Philosopher 59 is [0;32mthinking[0m
+[872] Philosopher 56 is [0;36msleeping[0m
+[872] Philosopher 57 is [0;32mthinking[0m
+[872] Philosopher 58 is [0;36msleeping[0m
+[872] Philosopher 57 has [0;34mtaken a fork[0m
+[872] Philosopher 57 is [0;33meating[0m
+[872] Philosopher 55 has [0;34mtaken a fork[0m
+[872] Philosopher 55 is [0;33meating[0m
+[873] Philosopher 38 is [0;36msleeping[0m
+[873] Philosopher 39 has [0;34mtaken a fork[0m
+[873] Philosopher 39 is [0;33meating[0m
+[873] Philosopher 37 has [0;34mtaken a fork[0m
+[873] Philosopher 37 is [0;33meating[0m
+[874] Philosopher 61 is [0;32mthinking[0m
+[874] Philosopher 60 is [0;36msleeping[0m
+[874] Philosopher 59 has [0;34mtaken a fork[0m
+[874] Philosopher 59 is [0;33meating[0m
+[876] Philosopher 62 is [0;36msleeping[0m
+[876] Philosopher 63 is [0;32mthinking[0m
+[876] Philosopher 61 has [0;34mtaken a fork[0m
+[876] Philosopher 61 is [0;33meating[0m
+[880] Philosopher 65 is [0;32mthinking[0m
+[880] Philosopher 64 is [0;36msleeping[0m
+[880] Philosopher 63 has [0;34mtaken a fork[0m
+[880] Philosopher 63 is [0;33meating[0m
+[882] Philosopher 66 is [0;36msleeping[0m
+[882] Philosopher 67 is [0;32mthinking[0m
+[882] Philosopher 65 has [0;34mtaken a fork[0m
+[882] Philosopher 65 is [0;33meating[0m
+[883] Philosopher 69 is [0;32mthinking[0m
+[885] Philosopher 68 is [0;36msleeping[0m
+[885] Philosopher 67 has [0;34mtaken a fork[0m
+[885] Philosopher 67 is [0;33meating[0m
+[887] Philosopher 70 is [0;36msleeping[0m
+[887] Philosopher 71 is [0;32mthinking[0m
+[887] Philosopher 69 has [0;34mtaken a fork[0m
+[887] Philosopher 69 is [0;33meating[0m
+[889] Philosopher 73 is [0;32mthinking[0m
+[889] Philosopher 72 is [0;36msleeping[0m
+[889] Philosopher 71 has [0;34mtaken a fork[0m
+[889] Philosopher 71 is [0;33meating[0m
+[892] Philosopher 75 is [0;32mthinking[0m
+[892] Philosopher 74 is [0;36msleeping[0m
+[892] Philosopher 73 has [0;34mtaken a fork[0m
+[892] Philosopher 73 is [0;33meating[0m
+[894] Philosopher 76 is [0;36msleeping[0m
+[894] Philosopher 77 is [0;32mthinking[0m
+[894] Philosopher 75 has [0;34mtaken a fork[0m
+[894] Philosopher 75 is [0;33meating[0m
+[899] Philosopher 81 is [0;32mthinking[0m
+[902] Philosopher 82 is [0;36msleeping[0m
+[902] Philosopher 79 is [0;32mthinking[0m
+[902] Philosopher 80 is [0;36msleeping[0m
+[902] Philosopher 81 has [0;34mtaken a fork[0m
+[902] Philosopher 81 is [0;33meating[0m
+[904] Philosopher 85 is [0;32mthinking[0m
+[905] Philosopher 84 is [0;36msleeping[0m
+[905] Philosopher 78 is [0;36msleeping[0m
+[905] Philosopher 79 has [0;34mtaken a fork[0m
+[905] Philosopher 79 is [0;33meating[0m
+[905] Philosopher 77 has [0;34mtaken a fork[0m
+[905] Philosopher 77 is [0;33meating[0m
+[907] Philosopher 87 is [0;32mthinking[0m
+[909] Philosopher 88 is [0;36msleeping[0m
+[912] Philosopher 91 is [0;32mthinking[0m
+[912] Philosopher 90 is [0;36msleeping[0m
+[914] Philosopher 93 is [0;32mthinking[0m
+[914] Philosopher 92 is [0;36msleeping[0m
+[914] Philosopher 91 has [0;34mtaken a fork[0m
+[914] Philosopher 91 is [0;33meating[0m
+[917] Philosopher 95 is [0;32mthinking[0m
+[917] Philosopher 94 is [0;36msleeping[0m
+[917] Philosopher 93 has [0;34mtaken a fork[0m
+[917] Philosopher 93 is [0;33meating[0m
+[918] Philosopher 1 is [0;32mthinking[0m
+[918] Philosopher 3 has [0;34mtaken a fork[0m
+[918] Philosopher 3 is [0;33meating[0m
+[918] Philosopher 2 is [0;36msleeping[0m
+[919] Philosopher 100 is [0;36msleeping[0m
+[919] Philosopher 97 is [0;32mthinking[0m
+[919] Philosopher 98 is [0;36msleeping[0m
+[919] Philosopher 99 is [0;32mthinking[0m
+[919] Philosopher 99 has [0;34mtaken a fork[0m
+[919] Philosopher 99 is [0;33meating[0m
+[919] Philosopher 1 has [0;34mtaken a fork[0m
+[919] Philosopher 1 is [0;33meating[0m
+[919] Philosopher 96 is [0;36msleeping[0m
+[919] Philosopher 97 has [0;34mtaken a fork[0m
+[919] Philosopher 97 is [0;33meating[0m
+[919] Philosopher 95 has [0;34mtaken a fork[0m
+[919] Philosopher 95 is [0;33meating[0m
+[934] Philosopher 89 is [0;32mthinking[0m
+[934] Philosopher 89 has [0;34mtaken a fork[0m
+[934] Philosopher 89 is [0;33meating[0m
+[997] Philosopher 83 is [0;32mthinking[0m
+[997] Philosopher 83 has [0;34mtaken a fork[0m
+[997] Philosopher 87 has [0;34mtaken a fork[0m
+[997] Philosopher 83 is [0;33meating[0m
+[998] Philosopher 87 is [0;33meating[0m
+[998] Philosopher 85 has [0;34mtaken a fork[0m
+[998] Philosopher 85 is [0;33meating[0m
+[998] Philosopher 86 is [0;36msleeping[0m
+[1007] Philosopher 4 is [0;32mthinking[0m
+[1010] Philosopher 5 is [0;36msleeping[0m
+[1010] Philosopher 6 is [0;32mthinking[0m
+[1012] Philosopher 8 is [0;32mthinking[0m
+[1013] Philosopher 7 is [0;36msleeping[0m
+[1013] Philosopher 6 has [0;34mtaken a fork[0m
+[1013] Philosopher 6 is [0;33meating[0m
+[1015] Philosopher 9 is [0;36msleeping[0m
+[1015] Philosopher 8 has [0;34mtaken a fork[0m
+[1015] Philosopher 8 is [0;33meating[0m
+[1015] Philosopher 10 is [0;32mthinking[0m
+[1017] Philosopher 12 is [0;32mthinking[0m
+[1017] Philosopher 11 is [0;36msleeping[0m
+[1017] Philosopher 10 has [0;34mtaken a fork[0m
+[1017] Philosopher 10 is [0;33meating[0m
+[1020] Philosopher 14 is [0;32mthinking[0m
+[1021] Philosopher 15 is [0;36msleeping[0m
+[1021] Philosopher 16 is [0;32mthinking[0m
+[1022] Philosopher 13 is [0;36msleeping[0m
+[1022] Philosopher 14 has [0;34mtaken a fork[0m
+[1022] Philosopher 14 is [0;33meating[0m
+[1022] Philosopher 12 has [0;34mtaken a fork[0m
+[1022] Philosopher 12 is [0;33meating[0m
+[1025] Philosopher 18 is [0;32mthinking[0m
+[1025] Philosopher 17 is [0;36msleeping[0m
+[1025] Philosopher 16 has [0;34mtaken a fork[0m
+[1025] Philosopher 16 is [0;33meating[0m
+[1026] Philosopher 19 is [0;36msleeping[0m
+[1026] Philosopher 18 has [0;34mtaken a fork[0m
+[1026] Philosopher 18 is [0;33meating[0m
+[1026] Philosopher 20 is [0;32mthinking[0m
+[1028] Philosopher 21 is [0;36msleeping[0m
+[1028] Philosopher 22 is [0;32mthinking[0m
+[1028] Philosopher 20 has [0;34mtaken a fork[0m
+[1028] Philosopher 20 is [0;33meating[0m
+[1031] Philosopher 24 is [0;32mthinking[0m
+[1031] Philosopher 23 is [0;36msleeping[0m
+[1031] Philosopher 22 has [0;34mtaken a fork[0m
+[1031] Philosopher 22 is [0;33meating[0m
+[1033] Philosopher 26 is [0;32mthinking[0m
+[1033] Philosopher 25 is [0;36msleeping[0m
+[1033] Philosopher 24 has [0;34mtaken a fork[0m
+[1033] Philosopher 24 is [0;33meating[0m
+[1035] Philosopher 28 is [0;32mthinking[0m
+[1036] Philosopher 27 is [0;36msleeping[0m
+[1036] Philosopher 26 has [0;34mtaken a fork[0m
+[1036] Philosopher 26 is [0;33meating[0m
+[1038] Philosopher 30 is [0;32mthinking[0m
+[1039] Philosopher 29 is [0;36msleeping[0m
+[1039] Philosopher 28 has [0;34mtaken a fork[0m
+[1039] Philosopher 28 is [0;33meating[0m
+[1041] Philosopher 31 is [0;36msleeping[0m
+[1041] Philosopher 30 has [0;34mtaken a fork[0m
+[1041] Philosopher 30 is [0;33meating[0m
+[1041] Philosopher 32 is [0;32mthinking[0m
+[1043] Philosopher 34 is [0;32mthinking[0m
+[1043] Philosopher 33 is [0;36msleeping[0m
+[1043] Philosopher 32 has [0;34mtaken a fork[0m
+[1043] Philosopher 32 is [0;33meating[0m
+[1045] Philosopher 36 is [0;32mthinking[0m
+[1045] Philosopher 35 is [0;36msleeping[0m
+[1045] Philosopher 34 has [0;34mtaken a fork[0m
+[1045] Philosopher 34 is [0;33meating[0m
+[1052] Philosopher 40 is [0;32mthinking[0m
+[1052] Philosopher 41 is [0;36msleeping[0m
+[1052] Philosopher 42 is [0;32mthinking[0m
+[1054] Philosopher 44 is [0;32mthinking[0m
+[1054] Philosopher 43 is [0;36msleeping[0m
+[1054] Philosopher 42 has [0;34mtaken a fork[0m
+[1054] Philosopher 42 is [0;33meating[0m
+[1057] Philosopher 46 is [0;32mthinking[0m
+[1057] Philosopher 45 is [0;36msleeping[0m
+[1057] Philosopher 44 has [0;34mtaken a fork[0m
+[1057] Philosopher 44 is [0;33meating[0m
+[1059] Philosopher 47 is [0;36msleeping[0m
+[1059] Philosopher 46 has [0;34mtaken a fork[0m
+[1059] Philosopher 46 is [0;33meating[0m
+[1059] Philosopher 48 is [0;32mthinking[0m
+[1062] Philosopher 50 is [0;32mthinking[0m
+[1062] Philosopher 49 is [0;36msleeping[0m
+[1062] Philosopher 48 has [0;34mtaken a fork[0m
+[1062] Philosopher 48 is [0;33meating[0m
+[1064] Philosopher 51 is [0;36msleeping[0m
+[1064] Philosopher 52 is [0;32mthinking[0m
+[1064] Philosopher 50 has [0;34mtaken a fork[0m
+[1064] Philosopher 50 is [0;33meating[0m
+[1066] Philosopher 54 is [0;32mthinking[0m
+[1066] Philosopher 53 is [0;36msleeping[0m
+[1066] Philosopher 52 has [0;34mtaken a fork[0m
+[1066] Philosopher 52 is [0;33meating[0m
+[1072] Philosopher 55 is [0;36msleeping[0m
+[1072] Philosopher 54 has [0;34mtaken a fork[0m
+[1072] Philosopher 54 is [0;33meating[0m
+[1072] Philosopher 56 is [0;32mthinking[0m
+[1072] Philosopher 58 is [0;32mthinking[0m
+[1072] Philosopher 57 is [0;36msleeping[0m
+[1072] Philosopher 56 has [0;34mtaken a fork[0m
+[1072] Philosopher 56 is [0;33meating[0m
+[1073] Philosopher 39 is [0;36msleeping[0m
+[1073] Philosopher 37 is [0;36msleeping[0m
+[1073] Philosopher 40 has [0;34mtaken a fork[0m
+[1073] Philosopher 40 is [0;33meating[0m
+[1073] Philosopher 36 has [0;34mtaken a fork[0m
+[1073] Philosopher 36 is [0;33meating[0m
+[1073] Philosopher 38 is [0;32mthinking[0m
+[1073] Philosopher 38 has [0;34mtaken a fork[0m
+[1073] Philosopher 38 is [0;33meating[0m
+[1074] Philosopher 60 is [0;32mthinking[0m
+[1074] Philosopher 59 is [0;36msleeping[0m
+[1074] Philosopher 58 has [0;34mtaken a fork[0m
+[1074] Philosopher 58 is [0;33meating[0m
+[1076] Philosopher 62 is [0;32mthinking[0m
+[1076] Philosopher 61 is [0;36msleeping[0m
+[1076] Philosopher 60 has [0;34mtaken a fork[0m
+[1076] Philosopher 60 is [0;33meating[0m
+[1080] Philosopher 64 is [0;32mthinking[0m
+[1080] Philosopher 63 is [0;36msleeping[0m
+[1080] Philosopher 62 has [0;34mtaken a fork[0m
+[1080] Philosopher 62 is [0;33meating[0m
+[1082] Philosopher 65 is [0;36msleeping[0m
+[1082] Philosopher 66 is [0;32mthinking[0m
+[1082] Philosopher 64 has [0;34mtaken a fork[0m
+[1082] Philosopher 64 is [0;33meating[0m
+[1085] Philosopher 68 is [0;32mthinking[0m
+[1085] Philosopher 67 is [0;36msleeping[0m
+[1085] Philosopher 66 has [0;34mtaken a fork[0m
+[1085] Philosopher 66 is [0;33meating[0m
+[1087] Philosopher 69 is [0;36msleeping[0m
+[1087] Philosopher 68 has [0;34mtaken a fork[0m
+[1087] Philosopher 68 is [0;33meating[0m
+[1087] Philosopher 70 is [0;32mthinking[0m
+[1089] Philosopher 71 is [0;36msleeping[0m
+[1089] Philosopher 70 has [0;34mtaken a fork[0m
+[1089] Philosopher 70 is [0;33meating[0m
+[1089] Philosopher 72 is [0;32mthinking[0m
+[1092] Philosopher 73 is [0;36msleeping[0m
+[1092] Philosopher 74 is [0;32mthinking[0m
+[1092] Philosopher 72 has [0;34mtaken a fork[0m
+[1092] Philosopher 72 is [0;33meating[0m
+[1094] Philosopher 75 is [0;36msleeping[0m
+[1094] Philosopher 74 has [0;34mtaken a fork[0m
+[1094] Philosopher 74 is [0;33meating[0m
+[1094] Philosopher 76 is [0;32mthinking[0m
+[1102] Philosopher 82 is [0;32mthinking[0m
+[1102] Philosopher 80 is [0;32mthinking[0m
+[1102] Philosopher 81 is [0;36msleeping[0m
+[1105] Philosopher 79 is [0;36msleeping[0m
+[1105] Philosopher 80 has [0;34mtaken a fork[0m
+[1105] Philosopher 80 is [0;33meating[0m
+[1105] Philosopher 84 is [0;32mthinking[0m
+[1105] Philosopher 77 is [0;36msleeping[0m
+[1105] Philosopher 78 is [0;32mthinking[0m
+[1105] Philosopher 78 has [0;34mtaken a fork[0m
+[1105] Philosopher 78 is [0;33meating[0m
+[1105] Philosopher 76 has [0;34mtaken a fork[0m
+[1105] Philosopher 76 is [0;33meating[0m
+[1109] Philosopher 88 is [0;32mthinking[0m
+[1112] Philosopher 90 is [0;32mthinking[0m
+[1114] Philosopher 92 is [0;32mthinking[0m
+[1114] Philosopher 91 is [0;36msleeping[0m
+[1117] Philosopher 94 is [0;32mthinking[0m
+[1117] Philosopher 93 is [0;36msleeping[0m
+[1117] Philosopher 92 has [0;34mtaken a fork[0m
+[1117] Philosopher 92 is [0;33meating[0m
+[1118] Philosopher 2 is [0;32mthinking[0m
+[1118] Philosopher 3 is [0;36msleeping[0m
+[1118] Philosopher 4 has [0;34mtaken a fork[0m
+[1118] Philosopher 4 is [0;33meating[0m
+[1119] Philosopher 99 is [0;36msleeping[0m
+[1119] Philosopher 98 is [0;32mthinking[0m
+[1119] Philosopher 100 is [0;32mthinking[0m
+[1119] Philosopher 95 is [0;36msleeping[0m
+[1119] Philosopher 94 has [0;34mtaken a fork[0m
+[1119] Philosopher 94 is [0;33meating[0m
+[1119] Philosopher 97 is [0;36msleeping[0m
+[1119] Philosopher 1 is [0;36msleeping[0m
+[1119] Philosopher 98 has [0;34mtaken a fork[0m
+[1119] Philosopher 98 is [0;33meating[0m
+[1119] Philosopher 2 has [0;34mtaken a fork[0m
+[1119] Philosopher 2 is [0;33meating[0m
+[1119] Philosopher 100 has [0;34mtaken a fork[0m
+[1119] Philosopher 100 is [0;33meating[0m
+[1121] Philosopher 96 is [0;32mthinking[0m
+[1121] Philosopher 96 has [0;34mtaken a fork[0m
+[1121] Philosopher 96 is [0;33meating[0m
+[1134] Philosopher 89 is [0;36msleeping[0m
+[1134] Philosopher 90 has [0;34mtaken a fork[0m
+[1134] Philosopher 90 is [0;33meating[0m
+[1198] Philosopher 85 is [0;36msleeping[0m
+[1198] Philosopher 83 is [0;36msleeping[0m
+[1198] Philosopher 84 has [0;34mtaken a fork[0m
+[1198] Philosopher 88 has [0;34mtaken a fork[0m
+[1198] Philosopher 88 is [0;33meating[0m
+[1198] Philosopher 86 is [0;32mthinking[0m
+[1198] Philosopher 86 has [0;34mtaken a fork[0m
+[1198] Philosopher 87 is [0;36msleeping[0m
+[1198] Philosopher 82 has [0;34mtaken a fork[0m
+[1198] Philosopher 82 is [0;33meating[0m
+[1198] Philosopher 84 is [0;33meating[0m
+[1198] Philosopher 86 is [0;33meating[0m
+[1210] Philosopher 5 is [0;32mthinking[0m
+[1213] Philosopher 7 is [0;32mthinking[0m
+[1213] Philosopher 6 is [0;36msleeping[0m
+[1215] Philosopher 8 is [0;36msleeping[0m
+[1215] Philosopher 7 has [0;34mtaken a fork[0m
+[1215] Philosopher 7 is [0;33meating[0m
+[1215] Philosopher 9 is [0;32mthinking[0m
+[1217] Philosopher 10 is [0;36msleeping[0m
+[1217] Philosopher 11 is [0;32mthinking[0m
+[1217] Philosopher 9 has [0;34mtaken a fork[0m
+[1217] Philosopher 9 is [0;33meating[0m
+[1221] Philosopher 15 is [0;32mthinking[0m
+[1222] Philosopher 14 is [0;36msleeping[0m
+[1222] Philosopher 13 is [0;32mthinking[0m
+[1222] Philosopher 13 has [0;34mtaken a fork[0m
+[1222] Philosopher 13 is [0;33meating[0m
+[1222] Philosopher 12 is [0;36msleeping[0m
+[1222] Philosopher 11 has [0;34mtaken a fork[0m
+[1222] Philosopher 11 is [0;33meating[0m
+[1225] Philosopher 16 is [0;36msleeping[0m
+[1225] Philosopher 15 has [0;34mtaken a fork[0m
+[1225] Philosopher 15 is [0;33meating[0m
+[1225] Philosopher 17 is [0;32mthinking[0m
+[1226] Philosopher 18 is [0;36msleeping[0m
+[1226] Philosopher 19 is [0;32mthinking[0m
+[1226] Philosopher 17 has [0;34mtaken a fork[0m
+[1226] Philosopher 17 is [0;33meating[0m
+[1228] Philosopher 20 is [0;36msleeping[0m
+[1228] Philosopher 21 is [0;32mthinking[0m
+[1228] Philosopher 19 has [0;34mtaken a fork[0m
+[1228] Philosopher 19 is [0;33meating[0m
+[1231] Philosopher 23 is [0;32mthinking[0m
+[1231] Philosopher 22 is [0;36msleeping[0m
+[1231] Philosopher 21 has [0;34mtaken a fork[0m
+[1231] Philosopher 21 is [0;33meating[0m
+[1233] Philosopher 25 is [0;32mthinking[0m
+[1233] Philosopher 24 is [0;36msleeping[0m
+[1233] Philosopher 23 has [0;34mtaken a fork[0m
+[1233] Philosopher 23 is [0;33meating[0m
+[1236] Philosopher 27 is [0;32mthinking[0m
+[1236] Philosopher 26 is [0;36msleeping[0m
+[1236] Philosopher 25 has [0;34mtaken a fork[0m
+[1236] Philosopher 25 is [0;33meating[0m
+[1239] Philosopher 29 is [0;32mthinking[0m
+[1239] Philosopher 28 is [0;36msleeping[0m
+[1239] Philosopher 27 has [0;34mtaken a fork[0m
+[1239] Philosopher 27 is [0;33meating[0m
+[1241] Philosopher 30 is [0;36msleeping[0m
+[1241] Philosopher 29 has [0;34mtaken a fork[0m
+[1241] Philosopher 29 is [0;33meating[0m
+[1241] Philosopher 31 is [0;32mthinking[0m
+[1243] Philosopher 33 is [0;32mthinking[0m
+[1243] Philosopher 32 is [0;36msleeping[0m
+[1243] Philosopher 31 has [0;34mtaken a fork[0m
+[1243] Philosopher 31 is [0;33meating[0m
+[1245] Philosopher 34 is [0;36msleeping[0m
+[1245] Philosopher 35 is [0;32mthinking[0m
+[1245] Philosopher 33 has [0;34mtaken a fork[0m
+[1245] Philosopher 33 is [0;33meating[0m
+[1252] Philosopher 41 is [0;32mthinking[0m
+[1254] Philosopher 43 is [0;32mthinking[0m
+[1254] Philosopher 42 is [0;36msleeping[0m
+[1257] Philosopher 44 is [0;36msleeping[0m
+[1257] Philosopher 45 is [0;32mthinking[0m
+[1257] Philosopher 43 has [0;34mtaken a fork[0m
+[1257] Philosopher 43 is [0;33meating[0m
+[1259] Philosopher 46 is [0;36msleeping[0m
+[1259] Philosopher 47 is [0;32mthinking[0m
+[1259] Philosopher 45 has [0;34mtaken a fork[0m
+[1259] Philosopher 45 is [0;33meating[0m
+[1262] Philosopher 49 is [0;32mthinking[0m
+[1262] Philosopher 48 is [0;36msleeping[0m
+[1262] Philosopher 47 has [0;34mtaken a fork[0m
+[1262] Philosopher 47 is [0;33meating[0m
+[1264] Philosopher 51 is [0;32mthinking[0m
+[1264] Philosopher 50 is [0;36msleeping[0m
+[1264] Philosopher 49 has [0;34mtaken a fork[0m
+[1264] Philosopher 49 is [0;33meating[0m
+[1266] Philosopher 53 is [0;32mthinking[0m
+[1266] Philosopher 52 is [0;36msleeping[0m
+[1266] Philosopher 51 has [0;34mtaken a fork[0m
+[1266] Philosopher 51 is [0;33meating[0m
+[1272] Philosopher 56 is [0;36msleeping[0m
+[1272] Philosopher 57 is [0;32mthinking[0m
+[1272] Philosopher 55 is [0;32mthinking[0m
+[1272] Philosopher 54 is [0;36msleeping[0m
+[1272] Philosopher 55 has [0;34mtaken a fork[0m
+[1272] Philosopher 55 is [0;33meating[0m
+[1272] Philosopher 53 has [0;34mtaken a fork[0m
+[1272] Philosopher 53 is [0;33meating[0m
+[1273] Philosopher 39 is [0;32mthinking[0m
+[1273] Philosopher 38 is [0;36msleeping[0m
+[1273] Philosopher 36 is [0;36msleeping[0m
+[1273] Philosopher 41 has [0;34mtaken a fork[0m
+[1273] Philosopher 41 is [0;33meating[0m
+[1273] Philosopher 40 is [0;36msleeping[0m
+[1273] Philosopher 39 has [0;34mtaken a fork[0m
+[1273] Philosopher 39 is [0;33meating[0m
+[1273] Philosopher 35 has [0;34mtaken a fork[0m
+[1273] Philosopher 35 is [0;33meating[0m
+[1273] Philosopher 37 is [0;32mthinking[0m
+[1273] Philosopher 37 has [0;34mtaken a fork[0m
+[1273] Philosopher 37 is [0;33meating[0m
+[1274] Philosopher 59 is [0;32mthinking[0m
+[1274] Philosopher 58 is [0;36msleeping[0m
+[1274] Philosopher 57 has [0;34mtaken a fork[0m
+[1274] Philosopher 57 is [0;33meating[0m
+[1276] Philosopher 60 is [0;36msleeping[0m
+[1276] Philosopher 61 is [0;32mthinking[0m
+[1276] Philosopher 59 has [0;34mtaken a fork[0m
+[1276] Philosopher 59 is [0;33meating[0m
+[1280] Philosopher 63 is [0;32mthinking[0m
+[1280] Philosopher 62 is [0;36msleeping[0m
+[1280] Philosopher 61 has [0;34mtaken a fork[0m
+[1280] Philosopher 61 is [0;33meating[0m
+[1282] Philosopher 64 is [0;36msleeping[0m
+[1282] Philosopher 63 has [0;34mtaken a fork[0m
+[1282] Philosopher 63 is [0;33meating[0m
+[1282] Philosopher 65 is [0;32mthinking[0m
+[1285] Philosopher 67 is [0;32mthinking[0m
+[1285] Philosopher 66 is [0;36msleeping[0m
+[1285] Philosopher 65 has [0;34mtaken a fork[0m
+[1285] Philosopher 65 is [0;33meating[0m
+[1287] Philosopher 68 is [0;36msleeping[0m
+[1287] Philosopher 67 has [0;34mtaken a fork[0m
+[1287] Philosopher 67 is [0;33meating[0m
+[1287] Philosopher 69 is [0;32mthinking[0m
+[1289] Philosopher 71 is [0;32mthinking[0m
+[1289] Philosopher 70 is [0;36msleeping[0m
+[1289] Philosopher 69 has [0;34mtaken a fork[0m
+[1289] Philosopher 69 is [0;33meating[0m
+[1292] Philosopher 73 is [0;32mthinking[0m
+[1292] Philosopher 72 is [0;36msleeping[0m
+[1292] Philosopher 71 has [0;34mtaken a fork[0m
+[1292] Philosopher 71 is [0;33meating[0m
+[1294] Philosopher 74 is [0;36msleeping[0m
+[1294] Philosopher 73 has [0;34mtaken a fork[0m
+[1294] Philosopher 73 is [0;33meating[0m
+[1294] Philosopher 75 is [0;32mthinking[0m
+[1302] Philosopher 81 is [0;32mthinking[0m
+[1305] Philosopher 80 is [0;36msleeping[0m
+[1305] Philosopher 76 is [0;36msleeping[0m
+[1305] Philosopher 75 has [0;34mtaken a fork[0m
+[1305] Philosopher 75 is [0;33meating[0m
+[1305] Philosopher 77 is [0;32mthinking[0m
+[1305] Philosopher 79 is [0;32mthinking[0m
+[1305] Philosopher 78 is [0;36msleeping[0m
+[1305] Philosopher 79 has [0;34mtaken a fork[0m
+[1305] Philosopher 79 is [0;33meating[0m
+[1305] Philosopher 77 has [0;34mtaken a fork[0m
+[1305] Philosopher 77 is [0;33meating[0m
+[1314] Philosopher 91 is [0;32mthinking[0m
+[1317] Philosopher 92 is [0;36msleeping[0m
+[1317] Philosopher 93 is [0;32mthinking[0m
+[1318] Philosopher 3 is [0;32mthinking[0m
+[1318] Philosopher 4 is [0;36msleeping[0m
+[1318] Philosopher 5 has [0;34mtaken a fork[0m
+[1318] Philosopher 5 is [0;33meating[0m
+[1319] Philosopher 2 is [0;36msleeping[0m
+[1319] Philosopher 3 has [0;34mtaken a fork[0m
+[1319] Philosopher 3 is [0;33meating[0m
+[1319] Philosopher 1 is [0;32mthinking[0m
+[1319] Philosopher 98 is [0;36msleeping[0m
+[1319] Philosopher 97 is [0;32mthinking[0m
+[1319] Philosopher 100 is [0;36msleeping[0m
+[1319] Philosopher 1 has [0;34mtaken a fork[0m
+[1319] Philosopher 1 is [0;33meating[0m
+[1319] Philosopher 99 is [0;32mthinking[0m
+[1319] Philosopher 99 has [0;34mtaken a fork[0m
+[1319] Philosopher 99 is [0;33meating[0m
+[1319] Philosopher 95 is [0;32mthinking[0m
+[1319] Philosopher 94 is [0;36msleeping[0m
+[1319] Philosopher 93 has [0;34mtaken a fork[0m
+[1319] Philosopher 93 is [0;33meating[0m
+[1321] Philosopher 96 is [0;36msleeping[0m
+[1321] Philosopher 97 has [0;34mtaken a fork[0m
+[1321] Philosopher 97 is [0;33meating[0m
+[1321] Philosopher 95 has [0;34mtaken a fork[0m
+[1321] Philosopher 95 is [0;33meating[0m
+[1334] Philosopher 89 is [0;32mthinking[0m
+[1334] Philosopher 90 is [0;36msleeping[0m
+[1334] Philosopher 91 has [0;34mtaken a fork[0m
+[1334] Philosopher 91 is [0;33meating[0m
+[1398] Philosopher 83 is [0;32mthinking[0m
+[1398] Philosopher 86 is [0;36msleeping[0m
+[1398] Philosopher 87 is [0;32mthinking[0m
+[1398] Philosopher 85 is [0;32mthinking[0m
+[1398] Philosopher 89 has [0;34mtaken a fork[0m
+[1398] Philosopher 89 is [0;33meating[0m
+[1398] Philosopher 87 has [0;34mtaken a fork[0m
+[1398] Philosopher 87 is [0;33meating[0m
+[1398] Philosopher 82 is [0;36msleeping[0m
+[1398] Philosopher 81 has [0;34mtaken a fork[0m
+[1398] Philosopher 81 is [0;33meating[0m
+[1398] Philosopher 84 is [0;36msleeping[0m
+[1398] Philosopher 85 has [0;34mtaken a fork[0m
+[1398] Philosopher 85 is [0;33meating[0m
+[1398] Philosopher 88 is [0;36msleeping[0m
+[1398] Philosopher 83 has [0;34mtaken a fork[0m
+[1398] Philosopher 83 is [0;33meating[0m
+[1413] Philosopher 6 is [0;32mthinking[0m
+[1415] Philosopher 7 is [0;36msleeping[0m
+[1415] Philosopher 8 is [0;32mthinking[0m
+[1417] Philosopher 10 is [0;32mthinking[0m
+[1417] Philosopher 9 is [0;36msleeping[0m
+[1417] Philosopher 8 has [0;34mtaken a fork[0m
+[1417] Philosopher 8 is [0;33meating[0m
+[1422] Philosopher 14 is [0;32mthinking[0m
+[1422] Philosopher 13 is [0;36msleeping[0m
+[1422] Philosopher 12 is [0;32mthinking[0m
+[1425] Philosopher 15 is [0;36msleeping[0m
+[1425] Philosopher 14 has [0;34mtaken a fork[0m
+[1425] Philosopher 14 is [0;33meating[0m
+[1425] Philosopher 16 is [0;32mthinking[0m
+[1426] Philosopher 18 is [0;32mthinking[0m
+[1426] Philosopher 17 is [0;36msleeping[0m
+[1426] Philosopher 16 has [0;34mtaken a fork[0m
+[1426] Philosopher 16 is [0;33meating[0m
+[1428] Philosopher 20 is [0;32mthinking[0m
+[1428] Philosopher 19 is [0;36msleeping[0m
+[1428] Philosopher 18 has [0;34mtaken a fork[0m
+[1428] Philosopher 18 is [0;33meating[0m
+[1431] Philosopher 21 is [0;36msleeping[0m
+[1431] Philosopher 20 has [0;34mtaken a fork[0m
+[1431] Philosopher 20 is [0;33meating[0m
+[1431] Philosopher 22 is [0;32mthinking[0m
+[1433] Philosopher 24 is [0;32mthinking[0m
+[1433] Philosopher 23 is [0;36msleeping[0m
+[1433] Philosopher 22 has [0;34mtaken a fork[0m
+[1433] Philosopher 22 is [0;33meating[0m
+[1436] Philosopher 26 is [0;32mthinking[0m
+[1436] Philosopher 25 is [0;36msleeping[0m
+[1436] Philosopher 24 has [0;34mtaken a fork[0m
+[1436] Philosopher 24 is [0;33meating[0m
+[1439] Philosopher 27 is [0;36msleeping[0m
+[1439] Philosopher 28 is [0;32mthinking[0m
+[1439] Philosopher 26 has [0;34mtaken a fork[0m
+[1439] Philosopher 26 is [0;33meating[0m
+[1441] Philosopher 30 is [0;32mthinking[0m
+[1441] Philosopher 29 is [0;36msleeping[0m
+[1441] Philosopher 28 has [0;34mtaken a fork[0m
+[1441] Philosopher 28 is [0;33meating[0m
+[1443] Philosopher 32 is [0;32mthinking[0m
+[1443] Philosopher 31 is [0;36msleeping[0m
+[1443] Philosopher 30 has [0;34mtaken a fork[0m
+[1443] Philosopher 30 is [0;33meating[0m
+[1445] Philosopher 34 is [0;32mthinking[0m
+[1445] Philosopher 33 is [0;36msleeping[0m
+[1445] Philosopher 32 has [0;34mtaken a fork[0m
+[1445] Philosopher 32 is [0;33meating[0m
+[1454] Philosopher 42 is [0;32mthinking[0m
+[1457] Philosopher 43 is [0;36msleeping[0m
+[1457] Philosopher 44 is [0;32mthinking[0m
+[1459] Philosopher 45 is [0;36msleeping[0m
+[1459] Philosopher 46 is [0;32mthinking[0m
+[1459] Philosopher 44 has [0;34mtaken a fork[0m
+[1459] Philosopher 44 is [0;33meating[0m
+[1462] Philosopher 48 is [0;32mthinking[0m
+[1462] Philosopher 47 is [0;36msleeping[0m
+[1462] Philosopher 46 has [0;34mtaken a fork[0m
+[1462] Philosopher 46 is [0;33meating[0m
+[1464] Philosopher 49 is [0;36msleeping[0m
+[1464] Philosopher 48 has [0;34mtaken a fork[0m
+[1464] Philosopher 48 is [0;33meating[0m
+[1464] Philosopher 50 is [0;32mthinking[0m
+[1466] Philosopher 51 is [0;36msleeping[0m
+[1466] Philosopher 52 is [0;32mthinking[0m
+[1467] Philosopher 50 has [0;34mtaken a fork[0m
+[1467] Philosopher 50 is [0;33meating[0m
+[1472] Philosopher 55 is [0;36msleeping[0m
+[1472] Philosopher 54 is [0;32mthinking[0m
+[1472] Philosopher 54 has [0;34mtaken a fork[0m
+[1472] Philosopher 54 is [0;33meating[0m
+[1472] Philosopher 53 is [0;36msleeping[0m
+[1472] Philosopher 56 is [0;32mthinking[0m
+[1472] Philosopher 52 has [0;34mtaken a fork[0m
+[1472] Philosopher 52 is [0;33meating[0m
+[1473] Philosopher 37 is [0;36msleeping[0m
+[1473] Philosopher 36 is [0;32mthinking[0m
+[1473] Philosopher 35 is [0;36msleeping[0m
+[1473] Philosopher 34 has [0;34mtaken a fork[0m
+[1473] Philosopher 34 is [0;33meating[0m
+[1473] Philosopher 38 is [0;32mthinking[0m
+[1473] Philosopher 41 is [0;36msleeping[0m
+[1473] Philosopher 40 is [0;32mthinking[0m
+[1473] Philosopher 42 has [0;34mtaken a fork[0m
+[1473] Philosopher 42 is [0;33meating[0m
+[1473] Philosopher 39 is [0;36msleeping[0m
+[1473] Philosopher 40 has [0;34mtaken a fork[0m
+[1473] Philosopher 40 is [0;33meating[0m
+[1473] Philosopher 38 has [0;34mtaken a fork[0m
+[1473] Philosopher 38 is [0;33meating[0m
+[1473] Philosopher 36 has [0;34mtaken a fork[0m
+[1473] Philosopher 36 is [0;33meating[0m
+[1474] Philosopher 58 is [0;32mthinking[0m
+[1474] Philosopher 57 is [0;36msleeping[0m
+[1474] Philosopher 56 has [0;34mtaken a fork[0m
+[1474] Philosopher 56 is [0;33meating[0m
+[1476] Philosopher 59 is [0;36msleeping[0m
+[1476] Philosopher 58 has [0;34mtaken a fork[0m
+[1476] Philosopher 58 is [0;33meating[0m
+[1476] Philosopher 60 is [0;32mthinking[0m
+[1480] Philosopher 61 is [0;36msleeping[0m
+[1480] Philosopher 62 is [0;32mthinking[0m
+[1480] Philosopher 60 has [0;34mtaken a fork[0m
+[1480] Philosopher 60 is [0;33meating[0m
+[1482] Philosopher 64 is [0;32mthinking[0m
+[1482] Philosopher 63 is [0;36msleeping[0m
+[1482] Philosopher 62 has [0;34mtaken a fork[0m
+[1482] Philosopher 62 is [0;33meating[0m
+[1485] Philosopher 66 is [0;32mthinking[0m
+[1485] Philosopher 65 is [0;36msleeping[0m
+[1485] Philosopher 64 has [0;34mtaken a fork[0m
+[1485] Philosopher 64 is [0;33meating[0m
+[1487] Philosopher 68 is [0;32mthinking[0m
+[1487] Philosopher 67 is [0;36msleeping[0m
+[1487] Philosopher 66 has [0;34mtaken a fork[0m
+[1487] Philosopher 66 is [0;33meating[0m
+[1489] Philosopher 69 is [0;36msleeping[0m
+[1489] Philosopher 68 has [0;34mtaken a fork[0m
+[1489] Philosopher 68 is [0;33meating[0m
+[1489] Philosopher 70 is [0;32mthinking[0m
+[1492] Philosopher 71 is [0;36msleeping[0m
+[1492] Philosopher 70 has [0;34mtaken a fork[0m
+[1492] Philosopher 70 is [0;33meating[0m
+[1492] Philosopher 72 is [0;32mthinking[0m
+[1494] Philosopher 73 is [0;36msleeping[0m
+[1494] Philosopher 72 has [0;34mtaken a fork[0m
+[1494] Philosopher 72 is [0;33meating[0m
+[1494] Philosopher 74 is [0;32mthinking[0m
+[1498] Philosopher 11 is [0;36msleeping[0m
+[1498] Philosopher 10 has [0;34mtaken a fork[0m
+[1498] Philosopher 10 is [0;33meating[0m
+[1498] Philosopher 12 has [0;34mtaken a fork[0m
+[1498] Philosopher 12 is [0;33meating[0m
+[1505] Philosopher 80 is [0;32mthinking[0m
+[1505] Philosopher 79 is [0;36msleeping[0m
+[1505] Philosopher 75 is [0;36msleeping[0m
+[1505] Philosopher 74 has [0;34mtaken a fork[0m
+[1505] Philosopher 74 is [0;33meating[0m
+[1505] Philosopher 76 is [0;32mthinking[0m
+[1505] Philosopher 78 is [0;32mthinking[0m
+[1505] Philosopher 77 is [0;36msleeping[0m
+[1505] Philosopher 76 has [0;34mtaken a fork[0m
+[1505] Philosopher 76 is [0;33meating[0m
+[1506] Philosopher 78 has [0;34mtaken a fork[0m
+[1506] Philosopher 78 is [0;33meating[0m
+[1517] Philosopher 92 is [0;32mthinking[0m
+[1518] Philosopher 4 is [0;32mthinking[0m
+[1518] Philosopher 5 is [0;36msleeping[0m
+[1518] Philosopher 6 has [0;34mtaken a fork[0m
+[1518] Philosopher 6 is [0;33meating[0m
+[1519] Philosopher 1 is [0;36msleeping[0m
+[1519] Philosopher 3 is [0;36msleeping[0m
+[1519] Philosopher 4 has [0;34mtaken a fork[0m
+[1519] Philosopher 4 is [0;33meating[0m
+[1519] Philosopher 93 is [0;36msleeping[0m
+[1519] Philosopher 94 is [0;32mthinking[0m
+[1519] Philosopher 100 is [0;32mthinking[0m
+[1519] Philosopher 2 is [0;32mthinking[0m
+[1519] Philosopher 2 has [0;34mtaken a fork[0m
+[1519] Philosopher 2 is [0;33meating[0m
+[1519] Philosopher 99 is [0;36msleeping[0m
+[1519] Philosopher 100 has [0;34mtaken a fork[0m
+[1519] Philosopher 100 is [0;33meating[0m
+[1519] Philosopher 98 is [0;32mthinking[0m
+[1521] Philosopher 96 is [0;32mthinking[0m
+[1521] Philosopher 95 is [0;36msleeping[0m
+[1521] Philosopher 97 is [0;36msleeping[0m
+[1521] Philosopher 94 has [0;34mtaken a fork[0m
+[1521] Philosopher 94 is [0;33meating[0m
+[1523] Philosopher 96 has [0;34mtaken a fork[0m
+[1523] Philosopher 96 is [0;33meating[0m
+[1524] Philosopher 98 has [0;34mtaken a fork[0m
+[1524] Philosopher 98 is [0;33meating[0m
+[1534] Philosopher 90 is [0;32mthinking[0m
+[1534] Philosopher 91 is [0;36msleeping[0m
+[1534] Philosopher 92 has [0;34mtaken a fork[0m
+[1534] Philosopher 92 is [0;33meating[0m
+[1598] Philosopher 86 is [0;32mthinking[0m
+[1598] Philosopher 83 is [0;36msleeping[0m
+[1598] Philosopher 81 is [0;36msleeping[0m
+[1598] Philosopher 84 is [0;32mthinking[0m
+[1598] Philosopher 82 is [0;32mthinking[0m
+[1598] Philosopher 82 has [0;34mtaken a fork[0m
+[1598] Philosopher 82 is [0;33meating[0m
+[1598] Philosopher 89 is [0;36msleeping[0m
+[1598] Philosopher 87 is [0;36msleeping[0m
+[1598] Philosopher 80 has [0;34mtaken a fork[0m
+[1598] Philosopher 80 is [0;33meating[0m
+[1598] Philosopher 90 has [0;34mtaken a fork[0m
+[1598] Philosopher 90 is [0;33meating[0m
+[1598] Philosopher 88 is [0;32mthinking[0m
+[1598] Philosopher 88 has [0;34mtaken a fork[0m
+[1598] Philosopher 88 is [0;33meating[0m
+[1598] Philosopher 85 is [0;36msleeping[0m
+[1598] Philosopher 86 has [0;34mtaken a fork[0m
+[1598] Philosopher 86 is [0;33meating[0m
+[1598] Philosopher 84 has [0;34mtaken a fork[0m
+[1598] Philosopher 84 is [0;33meating[0m
+[1615] Philosopher 7 is [0;32mthinking[0m
+[1617] Philosopher 8 is [0;36msleeping[0m
+[1617] Philosopher 9 is [0;32mthinking[0m
+[1622] Philosopher 13 is [0;32mthinking[0m
+[1625] Philosopher 14 is [0;36msleeping[0m
+[1625] Philosopher 15 is [0;32mthinking[0m
+[1626] Philosopher 16 is [0;36msleeping[0m
+[1626] Philosopher 17 is [0;32mthinking[0m
+[1626] Philosopher 15 has [0;34mtaken a fork[0m
+[1626] Philosopher 15 is [0;33meating[0m
+[1628] Philosopher 18 is [0;36msleeping[0m
+[1628] Philosopher 17 has [0;34mtaken a fork[0m
+[1628] Philosopher 17 is [0;33meating[0m
+[1628] Philosopher 19 is [0;32mthinking[0m
+[1631] Philosopher 21 is [0;32mthinking[0m
+[1631] Philosopher 20 is [0;36msleeping[0m
+[1631] Philosopher 19 has [0;34mtaken a fork[0m
+[1631] Philosopher 19 is [0;33meating[0m
+[1633] Philosopher 23 is [0;32mthinking[0m
+[1633] Philosopher 22 is [0;36msleeping[0m
+[1633] Philosopher 21 has [0;34mtaken a fork[0m
+[1633] Philosopher 21 is [0;33meating[0m
+[1636] Philosopher 25 is [0;32mthinking[0m
+[1636] Philosopher 24 is [0;36msleeping[0m
+[1636] Philosopher 23 has [0;34mtaken a fork[0m
+[1636] Philosopher 23 is [0;33meating[0m
+[1639] Philosopher 26 is [0;36msleeping[0m
+[1639] Philosopher 25 has [0;34mtaken a fork[0m
+[1639] Philosopher 25 is [0;33meating[0m
+[1639] Philosopher 27 is [0;32mthinking[0m
+[1641] Philosopher 29 is [0;32mthinking[0m
+[1641] Philosopher 28 is [0;36msleeping[0m
+[1641] Philosopher 27 has [0;34mtaken a fork[0m
+[1641] Philosopher 27 is [0;33meating[0m
+[1643] Philosopher 31 is [0;32mthinking[0m
+[1643] Philosopher 30 is [0;36msleeping[0m
+[1643] Philosopher 29 has [0;34mtaken a fork[0m
+[1643] Philosopher 29 is [0;33meating[0m
+[1645] Philosopher 33 is [0;32mthinking[0m
+[1645] Philosopher 32 is [0;36msleeping[0m
+[1645] Philosopher 31 has [0;34mtaken a fork[0m
+[1645] Philosopher 31 is [0;33meating[0m
+[1657] Philosopher 43 is [0;32mthinking[0m
+[1659] Philosopher 44 is [0;36msleeping[0m
+[1659] Philosopher 45 is [0;32mthinking[0m
+[1662] Philosopher 46 is [0;36msleeping[0m
+[1662] Philosopher 47 is [0;32mthinking[0m
+[1662] Philosopher 45 has [0;34mtaken a fork[0m
+[1662] Philosopher 45 is [0;33meating[0m
+[1664] Philosopher 48 is [0;36msleeping[0m
+[1664] Philosopher 47 has [0;34mtaken a fork[0m
+[1664] Philosopher 47 is [0;33meating[0m
+[1664] Philosopher 49 is [0;32mthinking[0m
+[1666] Philosopher 51 is [0;32mthinking[0m
+[1667] Philosopher 50 is [0;36msleeping[0m
+[1667] Philosopher 49 has [0;34mtaken a fork[0m
+[1667] Philosopher 49 is [0;33meating[0m
+[1672] Philosopher 52 is [0;36msleeping[0m
+[1672] Philosopher 51 has [0;34mtaken a fork[0m
+[1672] Philosopher 51 is [0;33meating[0m
+[1672] Philosopher 53 is [0;32mthinking[0m
+[1672] Philosopher 55 is [0;32mthinking[0m
+[1672] Philosopher 54 is [0;36msleeping[0m
+[1672] Philosopher 53 has [0;34mtaken a fork[0m
+[1672] Philosopher 53 is [0;33meating[0m
+[1673] Philosopher 35 is [0;32mthinking[0m
+[1673] Philosopher 42 is [0;36msleeping[0m
+[1673] Philosopher 39 is [0;32mthinking[0m
+[1673] Philosopher 41 is [0;32mthinking[0m
+[1673] Philosopher 38 is [0;36msleeping[0m
+[1673] Philosopher 34 is [0;36msleeping[0m
+[1673] Philosopher 33 has [0;34mtaken a fork[0m
+[1673] Philosopher 33 is [0;33meating[0m
+[1673] Philosopher 36 is [0;36msleeping[0m
+[1673] Philosopher 35 has [0;34mtaken a fork[0m
+[1673] Philosopher 35 is [0;33meating[0m
+[1673] Philosopher 39 has [0;34mtaken a fork[0m
+[1673] Philosopher 39 is [0;33meating[0m
+[1673] Philosopher 37 is [0;32mthinking[0m
+[1673] Philosopher 37 has [0;34mtaken a fork[0m
+[1673] Philosopher 37 is [0;33meating[0m
+[1673] Philosopher 43 has [0;34mtaken a fork[0m
+[1673] Philosopher 43 is [0;33meating[0m
+[1673] Philosopher 41 has [0;34mtaken a fork[0m
+[1673] Philosopher 41 is [0;33meating[0m
+[1673] Philosopher 40 is [0;36msleeping[0m
+[1674] Philosopher 57 is [0;32mthinking[0m
+[1674] Philosopher 56 is [0;36msleeping[0m
+[1674] Philosopher 55 has [0;34mtaken a fork[0m
+[1674] Philosopher 55 is [0;33meating[0m
+[1676] Philosopher 58 is [0;36msleeping[0m
+[1676] Philosopher 59 is [0;32mthinking[0m
+[1676] Philosopher 57 has [0;34mtaken a fork[0m
+[1676] Philosopher 57 is [0;33meating[0m
+[1680] Philosopher 60 is [0;36msleeping[0m
+[1680] Philosopher 61 is [0;32mthinking[0m
+[1680] Philosopher 59 has [0;34mtaken a fork[0m
+[1680] Philosopher 59 is [0;33meating[0m
+[1682] Philosopher 63 is [0;32mthinking[0m
+[1682] Philosopher 62 is [0;36msleeping[0m
+[1682] Philosopher 61 has [0;34mtaken a fork[0m
+[1682] Philosopher 61 is [0;33meating[0m
+[1685] Philosopher 64 is [0;36msleeping[0m
+[1685] Philosopher 63 has [0;34mtaken a fork[0m
+[1685] Philosopher 63 is [0;33meating[0m
+[1685] Philosopher 65 is [0;32mthinking[0m
+[1687] Philosopher 67 is [0;32mthinking[0m
+[1687] Philosopher 66 is [0;36msleeping[0m
+[1687] Philosopher 65 has [0;34mtaken a fork[0m
+[1687] Philosopher 65 is [0;33meating[0m
+[1689] Philosopher 68 is [0;36msleeping[0m
+[1689] Philosopher 67 has [0;34mtaken a fork[0m
+[1689] Philosopher 67 is [0;33meating[0m
+[1689] Philosopher 69 is [0;32mthinking[0m
+[1692] Philosopher 70 is [0;36msleeping[0m
+[1692] Philosopher 69 has [0;34mtaken a fork[0m
+[1692] Philosopher 69 is [0;33meating[0m
+[1694] Philosopher 72 is [0;36msleeping[0m
+[1694] Philosopher 73 is [0;32mthinking[0m
+[1698] Philosopher 12 is [0;36msleeping[0m
+[1698] Philosopher 13 has [0;34mtaken a fork[0m
+[1698] Philosopher 13 is [0;33meating[0m
+[1698] Philosopher 11 is [0;32mthinking[0m
+[1698] Philosopher 10 is [0;36msleeping[0m
+[1698] Philosopher 9 has [0;34mtaken a fork[0m
+[1698] Philosopher 9 is [0;33meating[0m
+[1698] Philosopher 11 has [0;34mtaken a fork[0m
+[1698] Philosopher 11 is [0;33meating[0m
+[1705] Philosopher 77 is [0;32mthinking[0m
+[1705] Philosopher 74 is [0;36msleeping[0m
+[1705] Philosopher 73 has [0;34mtaken a fork[0m
+[1705] Philosopher 73 is [0;33meating[0m
+[1705] Philosopher 76 is [0;36msleeping[0m
+[1705] Philosopher 75 is [0;32mthinking[0m
+[1705] Philosopher 75 has [0;34mtaken a fork[0m
+[1705] Philosopher 75 is [0;33meating[0m
+[1705] Philosopher 79 is [0;32mthinking[0m
+[1706] Philosopher 78 is [0;36msleeping[0m
+[1706] Philosopher 77 has [0;34mtaken a fork[0m
+[1706] Philosopher 77 is [0;33meating[0m
+[1718] Philosopher 5 is [0;32mthinking[0m
+[1718] Philosopher 6 is [0;36msleeping[0m
+[1718] Philosopher 7 has [0;34mtaken a fork[0m
+[1718] Philosopher 7 is [0;33meating[0m
+[1719] Philosopher 99 is [0;32mthinking[0m
+[1719] Philosopher 100 is [0;36msleeping[0m
+[1719] Philosopher 3 is [0;32mthinking[0m
+[1719] Philosopher 93 is [0;32mthinking[0m
+[1719] Philosopher 1 is [0;32mthinking[0m
+[1719] Philosopher 2 is [0;36msleeping[0m
+[1719] Philosopher 1 has [0;34mtaken a fork[0m
+[1719] Philosopher 1 is [0;33meating[0m
+[1719] Philosopher 4 is [0;36msleeping[0m
+[1719] Philosopher 5 has [0;34mtaken a fork[0m
+[1719] Philosopher 5 is [0;33meating[0m
+[1719] Philosopher 3 has [0;34mtaken a fork[0m
+[1719] Philosopher 3 is [0;33meating[0m
+[1721] Philosopher 94 is [0;36msleeping[0m
+[1721] Philosopher 97 is [0;32mthinking[0m
+[1721] Philosopher 95 is [0;32mthinking[0m
+[1723] Philosopher 96 is [0;36msleeping[0m
+[1723] Philosopher 95 has [0;34mtaken a fork[0m
+[1723] Philosopher 95 is [0;33meating[0m
+[1724] Philosopher 98 is [0;36msleeping[0m
+[1724] Philosopher 97 has [0;34mtaken a fork[0m
+[1724] Philosopher 97 is [0;33meating[0m
+[1724] Philosopher 99 has [0;34mtaken a fork[0m
+[1724] Philosopher 99 is [0;33meating[0m
+[1734] Philosopher 92 is [0;36msleeping[0m
+[1734] Philosopher 93 has [0;34mtaken a fork[0m
+[1734] Philosopher 93 is [0;33meating[0m
+[1734] Philosopher 91 is [0;32mthinking[0m
+[1747] Philosopher 71 is [0;32mthinking[0m
+[1747] Philosopher 71 has [0;34mtaken a fork[0m
+[1747] Philosopher 71 is [0;33meating[0m
+[1798] Philosopher 86 is [0;36msleeping[0m
+[1798] Philosopher 84 is [0;36msleeping[0m
+[1798] Philosopher 83 is [0;32mthinking[0m
+[1798] Philosopher 82 is [0;36msleeping[0m
+[1798] Philosopher 83 has [0;34mtaken a fork[0m
+[1798] Philosopher 83 is [0;33meating[0m
+[1798] Philosopher 85 is [0;32mthinking[0m
+[1798] Philosopher 85 has [0;34mtaken a fork[0m
+[1798] Philosopher 85 is [0;33meating[0m
+[1798] Philosopher 89 is [0;32mthinking[0m
+[1798] Philosopher 88 is [0;36msleeping[0m
+[1798] Philosopher 90 is [0;36msleeping[0m
+[1798] Philosopher 80 is [0;36msleeping[0m
+[1798] Philosopher 91 has [0;34mtaken a fork[0m
+[1798] Philosopher 91 is [0;33meating[0m
+[1798] Philosopher 79 has [0;34mtaken a fork[0m
+[1798] Philosopher 79 is [0;33meating[0m
+[1798] Philosopher 89 has [0;34mtaken a fork[0m
+[1798] Philosopher 89 is [0;33meating[0m
+[1798] Philosopher 81 is [0;32mthinking[0m
+[1798] Philosopher 81 has [0;34mtaken a fork[0m
+[1798] Philosopher 81 is [0;33meating[0m
+[1807] Philosopher 87 is [0;32mthinking[0m
+[1807] Philosopher 87 has [0;34mtaken a fork[0m
+[1807] Philosopher 87 is [0;33meating[0m
+[1817] Philosopher 8 is [0;32mthinking[0m
+[1825] Philosopher 14 is [0;32mthinking[0m
+[1826] Philosopher 16 is [0;32mthinking[0m
+[1826] Philosopher 15 is [0;36msleeping[0m
+[1828] Philosopher 17 is [0;36msleeping[0m
+[1828] Philosopher 16 has [0;34mtaken a fork[0m
+[1828] Philosopher 16 is [0;33meating[0m
+[1828] Philosopher 18 is [0;32mthinking[0m
+[1831] Philosopher 20 is [0;32mthinking[0m
+[1831] Philosopher 19 is [0;36msleeping[0m
+[1831] Philosopher 18 has [0;34mtaken a fork[0m
+[1831] Philosopher 18 is [0;33meating[0m
+[1833] Philosopher 21 is [0;36msleeping[0m
+[1833] Philosopher 20 has [0;34mtaken a fork[0m
+[1833] Philosopher 20 is [0;33meating[0m
+[1836] Philosopher 23 is [0;36msleeping[0m
+[1836] Philosopher 24 is [0;32mthinking[0m
+[1839] Philosopher 25 is [0;36msleeping[0m
+[1839] Philosopher 26 is [0;32mthinking[0m
+[1839] Philosopher 24 has [0;34mtaken a fork[0m
+[1839] Philosopher 24 is [0;33meating[0m
+[1841] Philosopher 27 is [0;36msleeping[0m
+[1841] Philosopher 26 has [0;34mtaken a fork[0m
+[1841] Philosopher 26 is [0;33meating[0m
+[1841] Philosopher 28 is [0;32mthinking[0m
+[1843] Philosopher 30 is [0;32mthinking[0m
+[1843] Philosopher 29 is [0;36msleeping[0m
+[1843] Philosopher 28 has [0;34mtaken a fork[0m
+[1843] Philosopher 28 is [0;33meating[0m
+[1845] Philosopher 32 is [0;32mthinking[0m
+[1845] Philosopher 31 is [0;36msleeping[0m
+[1845] Philosopher 30 has [0;34mtaken a fork[0m
+[1845] Philosopher 30 is [0;33meating[0m
+[1859] Philosopher 44 is [0;32mthinking[0m
+[1862] Philosopher 46 is [0;32mthinking[0m
+[1862] Philosopher 45 is [0;36msleeping[0m
+[1864] Philosopher 48 is [0;32mthinking[0m
+[1864] Philosopher 47 is [0;36msleeping[0m
+[1864] Philosopher 46 has [0;34mtaken a fork[0m
+[1864] Philosopher 46 is [0;33meating[0m
+[1867] Philosopher 50 is [0;32mthinking[0m
+[1867] Philosopher 49 is [0;36msleeping[0m
+[1867] Philosopher 48 has [0;34mtaken a fork[0m
+[1867] Philosopher 48 is [0;33meating[0m
+[1872] Philosopher 51 is [0;36msleeping[0m
+[1872] Philosopher 54 is [0;32mthinking[0m
+[1872] Philosopher 50 has [0;34mtaken a fork[0m
+[1872] Philosopher 50 is [0;33meating[0m
+[1872] Philosopher 53 is [0;36msleeping[0m
+[1872] Philosopher 52 is [0;32mthinking[0m
+[1872] Philosopher 52 has [0;34mtaken a fork[0m
+[1872] Philosopher 52 is [0;33meating[0m
+[1873] Philosopher 22 is [0;32mthinking[0m
+[1873] Philosopher 22 has [0;34mtaken a fork[0m
+[1873] Philosopher 22 is [0;33meating[0m
+[1873] Philosopher 40 is [0;32mthinking[0m
+[1873] Philosopher 37 is [0;36msleeping[0m
+[1873] Philosopher 41 is [0;36msleeping[0m
+[1873] Philosopher 35 is [0;36msleeping[0m
+[1873] Philosopher 42 is [0;32mthinking[0m
+[1873] Philosopher 39 is [0;36msleeping[0m
+[1873] Philosopher 33 is [0;36msleeping[0m
+[1873] Philosopher 32 has [0;34mtaken a fork[0m
+[1873] Philosopher 32 is [0;33meating[0m
+[1873] Philosopher 38 is [0;32mthinking[0m
+[1873] Philosopher 38 has [0;34mtaken a fork[0m
+[1873] Philosopher 38 is [0;33meating[0m
+[1873] Philosopher 36 is [0;32mthinking[0m
+[1873] Philosopher 36 has [0;34mtaken a fork[0m
+[1873] Philosopher 36 is [0;33meating[0m
+[1873] Philosopher 40 has [0;34mtaken a fork[0m
+[1873] Philosopher 40 is [0;33meating[0m
+[1874] Philosopher 43 is [0;36msleeping[0m
+[1874] Philosopher 42 has [0;34mtaken a fork[0m
+[1874] Philosopher 42 is [0;33meating[0m
+[1874] Philosopher 56 is [0;32mthinking[0m
+[1874] Philosopher 44 has [0;34mtaken a fork[0m
+[1874] Philosopher 44 is [0;33meating[0m
+[1874] Philosopher 54 has [0;34mtaken a fork[0m
+[1874] Philosopher 54 is [0;33meating[0m
+[1874] Philosopher 55 is [0;36msleeping[0m
+[1875] Philosopher 34 is [0;32mthinking[0m
+[1875] Philosopher 34 has [0;34mtaken a fork[0m
+[1875] Philosopher 34 is [0;33meating[0m
+[1876] Philosopher 57 is [0;36msleeping[0m
+[1876] Philosopher 56 has [0;34mtaken a fork[0m
+[1876] Philosopher 56 is [0;33meating[0m
+[1876] Philosopher 58 is [0;32mthinking[0m
+[1880] Philosopher 59 is [0;36msleeping[0m
+[1880] Philosopher 58 has [0;34mtaken a fork[0m
+[1880] Philosopher 58 is [0;33meating[0m
+[1880] Philosopher 60 is [0;32mthinking[0m
+[1882] Philosopher 62 is [0;32mthinking[0m
+[1882] Philosopher 61 is [0;36msleeping[0m
+[1884] Philosopher 60 has [0;34mtaken a fork[0m
+[1884] Philosopher 60 is [0;33meating[0m
+[1885] Philosopher 63 is [0;36msleeping[0m
+[1885] Philosopher 62 has [0;34mtaken a fork[0m
+[1885] Philosopher 62 is [0;33meating[0m
+[1885] Philosopher 64 is [0;32mthinking[0m
+[1887] Philosopher 66 is [0;32mthinking[0m
+[1887] Philosopher 65 is [0;36msleeping[0m
+[1889] Philosopher 68 is [0;32mthinking[0m
+[1889] Philosopher 67 is [0;36msleeping[0m
+[1889] Philosopher 66 has [0;34mtaken a fork[0m
+[1889] Philosopher 66 is [0;33meating[0m
+[1889] Philosopher 64 has [0;34mtaken a fork[0m
+[1889] Philosopher 64 is [0;33meating[0m
+[1892] Philosopher 69 is [0;36msleeping[0m
+[1892] Philosopher 68 has [0;34mtaken a fork[0m
+[1892] Philosopher 68 is [0;33meating[0m
+[1894] Philosopher 72 is [0;32mthinking[0m
+[1894] Philosopher 70 is [0;32mthinking[0m
+[1898] Philosopher 9 is [0;36msleeping[0m
+[1898] Philosopher 12 is [0;32mthinking[0m
+[1898] Philosopher 11 is [0;36msleeping[0m
+[1898] Philosopher 14 has [0;34mtaken a fork[0m
+[1898] Philosopher 12 has [0;34mtaken a fork[0m
+[1898] Philosopher 12 is [0;33meating[0m
+[1898] Philosopher 14 is [0;33meating[0m
+[1898] Philosopher 10 is [0;32mthinking[0m
+[1898] Philosopher 10 has [0;34mtaken a fork[0m
+[1898] Philosopher 10 is [0;33meating[0m
+[1898] Philosopher 13 is [0;36msleeping[0m
+[1905] Philosopher 75 is [0;36msleeping[0m
+[1905] Philosopher 74 is [0;32mthinking[0m
+[1905] Philosopher 73 is [0;36msleeping[0m
+[1905] Philosopher 74 has [0;34mtaken a fork[0m
+[1905] Philosopher 74 is [0;33meating[0m
+[1905] Philosopher 76 is [0;32mthinking[0m
+[1906] Philosopher 78 is [0;32mthinking[0m
+[1906] Philosopher 77 is [0;36msleeping[0m
+[1906] Philosopher 76 has [0;34mtaken a fork[0m
+[1906] Philosopher 76 is [0;33meating[0m
+[1918] Philosopher 6 is [0;32mthinking[0m
+[1918] Philosopher 7 is [0;36msleeping[0m
+[1918] Philosopher 8 has [0;34mtaken a fork[0m
+[1918] Philosopher 8 is [0;33meating[0m
+[1919] Philosopher 2 is [0;32mthinking[0m
+[1919] Philosopher 3 is [0;36msleeping[0m
+[1919] Philosopher 5 is [0;36msleeping[0m
+[1919] Philosopher 100 is [0;32mthinking[0m
+[1919] Philosopher 1 is [0;36msleeping[0m
+[1919] Philosopher 6 has [0;34mtaken a fork[0m
+[1919] Philosopher 6 is [0;33meating[0m
+[1919] Philosopher 4 is [0;32mthinking[0m
+[1919] Philosopher 4 has [0;34mtaken a fork[0m
+[1919] Philosopher 4 is [0;33meating[0m
+[1919] Philosopher 2 has [0;34mtaken a fork[0m
+[1919] Philosopher 2 is [0;33meating[0m
+[1921] Philosopher 94 is [0;32mthinking[0m
+[1923] Philosopher 95 is [0;36msleeping[0m
+[1923] Philosopher 96 is [0;32mthinking[0m
+[1924] Philosopher 98 is [0;32mthinking[0m
+[1924] Philosopher 97 is [0;36msleeping[0m
+[1924] Philosopher 96 has [0;34mtaken a fork[0m
+[1924] Philosopher 96 is [0;33meating[0m
+[1924] Philosopher 100 has [0;34mtaken a fork[0m
+[1924] Philosopher 100 is [0;33meating[0m
+[1924] Philosopher 99 is [0;36msleeping[0m
+[1924] Philosopher 98 has [0;34mtaken a fork[0m
+[1924] Philosopher 98 is [0;33meating[0m
+[1934] Philosopher 92 is [0;32mthinking[0m
+[1934] Philosopher 93 is [0;36msleeping[0m
+[1934] Philosopher 94 has [0;34mtaken a fork[0m
+[1934] Philosopher 94 is [0;33meating[0m
+[1948] Philosopher 71 is [0;36msleeping[0m
+[1948] Philosopher 72 has [0;34mtaken a fork[0m
+[1948] Philosopher 72 is [0;33meating[0m
+[1950] Philosopher 70 has [0;34mtaken a fork[0m
+[1950] Philosopher 70 is [0;33meating[0m
+[1998] Philosopher 85 is [0;36msleeping[0m
+[1998] Philosopher 81 is [0;36msleeping[0m
+[1998] Philosopher 82 is [0;32mthinking[0m
+[1998] Philosopher 79 is [0;36msleeping[0m
+[1998] Philosopher 78 has [0;34mtaken a fork[0m
+[1998] Philosopher 78 is [0;33meating[0m
+[1998] Philosopher 86 is [0;32mthinking[0m
+[1998] Philosopher 84 is [0;32mthinking[0m
+[1998] Philosopher 90 is [0;32mthinking[0m
+[1998] Philosopher 80 is [0;32mthinking[0m
+[1998] Philosopher 80 has [0;34mtaken a fork[0m
+[1998] Philosopher 80 is [0;33meating[0m
+[1998] Philosopher 89 is [0;36msleeping[0m
+[1998] Philosopher 88 is [0;32mthinking[0m
+[1998] Philosopher 83 is [0;36msleeping[0m
+[1998] Philosopher 82 has [0;34mtaken a fork[0m
+[1998] Philosopher 82 is [0;33meating[0m
+[1998] Philosopher 90 has [0;34mtaken a fork[0m
+[1998] Philosopher 90 is [0;33meating[0m
+[1998] Philosopher 91 is [0;36msleeping[0m
+[1998] Philosopher 92 has [0;34mtaken a fork[0m
+[1998] Philosopher 92 is [0;33meating[0m
+[1998] Philosopher 84 has [0;34mtaken a fork[0m
+[1998] Philosopher 84 is [0;33meating[0m
+[2007] Philosopher 87 is [0;36msleeping[0m
+[2007] Philosopher 88 has [0;34mtaken a fork[0m
+[2007] Philosopher 88 is [0;33meating[0m
+[2007] Philosopher 86 has [0;34mtaken a fork[0m
+[2007] Philosopher 86 is [0;33meating[0m
+[2027] Philosopher 15 is [0;32mthinking[0m
+[2029] Philosopher 17 is [0;32mthinking[0m
+[2031] Philosopher 19 is [0;32mthinking[0m
+[2032] Philosopher 16 is [0;36msleeping[0m
+[2032] Philosopher 18 is [0;36msleeping[0m
+[2033] Philosopher 21 is [0;32mthinking[0m
+[2034] Philosopher 20 is [0;36msleeping[0m
+[2034] Philosopher 19 has [0;34mtaken a fork[0m
+[2034] Philosopher 19 is [0;33meating[0m
+[2034] Philosopher 17 has [0;34mtaken a fork[0m
+[2034] Philosopher 17 is [0;33meating[0m
+[2036] Philosopher 23 is [0;32mthinking[0m
+[2039] Philosopher 25 is [0;32mthinking[0m
+[2039] Philosopher 24 is [0;36msleeping[0m
+[2041] Philosopher 26 is [0;36msleeping[0m
+[2041] Philosopher 25 has [0;34mtaken a fork[0m
+[2041] Philosopher 25 is [0;33meating[0m
+[2041] Philosopher 27 is [0;32mthinking[0m
+[2043] Philosopher 28 is [0;36msleeping[0m
+[2043] Philosopher 27 has [0;34mtaken a fork[0m
+[2043] Philosopher 27 is [0;33meating[0m
+[2043] Philosopher 29 is [0;32mthinking[0m
+[2045] Philosopher 31 is [0;32mthinking[0m
+[2045] Philosopher 30 is [0;36msleeping[0m
+[2045] Philosopher 29 has [0;34mtaken a fork[0m
+[2045] Philosopher 29 is [0;33meating[0m
+[2062] Philosopher 45 is [0;32mthinking[0m
+[2064] Philosopher 47 is [0;32mthinking[0m
+[2064] Philosopher 46 is [0;36msleeping[0m
+[2067] Philosopher 49 is [0;32mthinking[0m
+[2067] Philosopher 48 is [0;36msleeping[0m
+[2067] Philosopher 47 has [0;34mtaken a fork[0m
+[2067] Philosopher 47 is [0;33meating[0m
+[2072] Philosopher 52 is [0;36msleeping[0m
+[2072] Philosopher 53 is [0;32mthinking[0m
+[2072] Philosopher 50 is [0;36msleeping[0m
+[2072] Philosopher 51 is [0;32mthinking[0m
+[2072] Philosopher 51 has [0;34mtaken a fork[0m
+[2072] Philosopher 51 is [0;33meating[0m
+[2072] Philosopher 49 has [0;34mtaken a fork[0m
+[2072] Philosopher 49 is [0;33meating[0m
+[2073] Philosopher 41 is [0;32mthinking[0m
+[2073] Philosopher 22 is [0;36msleeping[0m
+[2073] Philosopher 21 has [0;34mtaken a fork[0m
+[2073] Philosopher 21 is [0;33meating[0m
+[2073] Philosopher 38 is [0;36msleeping[0m
+[2073] Philosopher 33 is [0;32mthinking[0m
+[2073] Philosopher 37 is [0;32mthinking[0m
+[2073] Philosopher 37 has [0;34mtaken a fork[0m
+[2073] Philosopher 37 is [0;33meating[0m
+[2073] Philosopher 35 is [0;32mthinking[0m
+[2073] Philosopher 39 is [0;32mth

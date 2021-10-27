@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/27 17:23:27 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/26 22:24:12 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -62,12 +62,26 @@ static void	join_philo_threads(t_philo_id *philo, long long num_philos)
 static int	create_threads(t_gen_stats *stats, long long num_philos)
 {
 	t_philo_id	*philo;
+	pthread_t	monitor;
+	int			error;
+	long long	i;
 
+	i = 0;
+	monitor = NULL;
+	error = pthread_create(&monitor, NULL, &monitoring_system, (void *)stats);
+	if (error)
+		return (1);
 	philo = (t_philo_id *)malloc(num_philos * sizeof(t_philo_id));
 	if (!philo)
-		return (1);
-	init_philo_lifecycle(philo, stats, num_philos);
-	join_philo_threads(philo, num_philos);
+		return (end_monitoring(stats, &monitor));
+	error = init_philo_lifecycle(philo, stats, num_philos);
+	if (error)
+		end_monitoring(stats, &monitor);
+	else
+	{
+		join_philo_threads(philo, num_philos);
+		pthread_join(monitor, NULL);
+	}
 	free(philo);
 	return (0);
 }

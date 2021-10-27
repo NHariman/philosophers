@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/26 21:54:27 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/27 17:32:38 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/27 12:57:41 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,6 @@ int	call_grimreaper(t_philo_id *philo)
 	return (0);
 }
 
-// ft_mutex_print(philo, 0, "has \033[1;35meaten enough\033[0m");
-// for being full
 void	*life_support(void *args)
 {
 	t_philo_id	*philo;
@@ -39,29 +37,9 @@ void	*life_support(void *args)
 	while (1)
 	{
 		if (check_death(philo))
-			break ;
-		pthread_mutex_lock(&stats->death_lock);
-		if (stats->death_occured == true)
-		{
-			pthread_mutex_unlock(&stats->death_lock);
-			break ;
-		}
-		pthread_mutex_unlock(&stats->death_lock);
-		if (stats->must_eat != -2)
-		{
-			pthread_mutex_lock(&stats->eat_lock);
-			if (stats->done_eating == stats->num_philos)
-			{
-				pthread_mutex_unlock(&stats->eat_lock);
-				break ;
-			}
-			pthread_mutex_unlock(&stats->eat_lock);
-		}
-		usleep(10);
+			return (NULL);
+		usleep(100);
 	}
-	pthread_mutex_lock(&philo->stats->death_lock);
-	philo->stats->death_occured = true;
-	pthread_mutex_unlock(&philo->stats->death_lock);
 	return (NULL);
 }
 
@@ -82,14 +60,18 @@ int	check_death(t_philo_id *philo)
 	long long	time;
 	int			ret;
 
-	ret = 0;
 	time = elapsed_time(philo->stats->start_time);
+	ret = 0;
 	pthread_mutex_lock(&philo->stats->eat_lock);
 	if (time - philo->last_meal > philo->stats->die)
 	{
 		pthread_mutex_unlock(&philo->stats->eat_lock);
+		printf("philo: %lli time of death: %lli\n", philo->id, time - philo->last_meal);
 		ft_mutex_print(philo, 0, "has \033[0;31mdied\033[0m");
 		philo->death = true;
+		pthread_mutex_lock(&philo->stats->death_lock);
+		philo->stats->death_occured = true;
+		pthread_mutex_unlock(&philo->stats->death_lock);
 		ret = 1;
 	}
 	else
