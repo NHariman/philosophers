@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/27 17:23:27 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/29 20:12:54 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,11 +15,11 @@
 static int	init_philo_vars(t_philo_id *philo, t_gen_stats *stats, long long i)
 {
 	philo->id = i;
-	philo->last_meal = -1;
+	philo->last_meal = elapsed_time(stats->start_time);
 	philo->meal_count = 0;
 	philo->stats = stats;
 	philo->death = false;
-	if (pthread_mutex_init(&philo->die_lock, NULL) != 0)
+	if (pthread_mutex_init(&philo->eat_lock, NULL) != 0)
 		return (ft_prnt_err("Error\nMutex init failure.\n"));
 	return (0);
 }

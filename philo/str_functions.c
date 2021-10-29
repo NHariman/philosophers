@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:30:36 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/19 21:10:16 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/29 14:00:20 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,15 +16,9 @@ int	ft_mutex_print(t_philo_id *philo, int ret, char *action)
 {
 	long long	time;
 
-	pthread_mutex_lock(&philo->stats->print_lock);
-	pthread_mutex_lock(&philo->stats->death_lock);
-	if (philo->stats->death_occured == true)
-	{
-		pthread_mutex_unlock(&philo->stats->print_lock);
-		pthread_mutex_unlock(&philo->stats->death_lock);
+	if (check_death(philo) || check_done_eating(philo))
 		return (ret);
-	}
-	pthread_mutex_unlock(&philo->stats->death_lock);
+	pthread_mutex_lock(&philo->stats->print_lock);
 	time = elapsed_time(philo->stats->start_time);
 	printf("[%lld] Philosopher %lld %s\n",
 		time, philo->id + 1, action);

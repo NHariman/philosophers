@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:47:47 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/26 22:33:35 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/28 19:01:55 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,8 +21,6 @@ int	initialise_mutex_locks(t_gen_stats *stats)
 	if (pthread_mutex_init(&stats->print_lock, NULL) != 0)
 		return (ft_prnt_err("Error\nMutex init failure.\n"));
 	if (pthread_mutex_init(&stats->death_lock, NULL) != 0)
-		return (ft_prnt_err("Error\nMutex init failure.\n"));
-	if (pthread_mutex_init(&stats->eat_lock, NULL) != 0)
 		return (ft_prnt_err("Error\nMutex init failure.\n"));
 	stats->lock = (pthread_mutex_t *)malloc(
 			stats->num_philos * sizeof(pthread_mutex_t));
@@ -49,18 +47,21 @@ int	grab_forks(t_philo_id *philo)
 		pthread_mutex_lock(&philo->stats->lock[philo->id - 1]);
 	if (philo->id % 2 != 0)
 		pthread_mutex_lock(&philo->stats->lock[philo->id]);
-	ft_mutex_print(philo, 0, "has \033[0;34mtaken a fork\033[0m");
+	ft_mutex_print(philo, 0, "has \033[0;34mtaken their forks\033[0m");
 	return (1);
 }
 
 // attempt unlock function here
 int	drop_forks(t_philo_id *philo)
 {
-	pthread_mutex_unlock(&philo->stats->lock[philo->id]);
+	if (philo->id % 2 == 0)
+		pthread_mutex_unlock(&philo->stats->lock[philo->id]);
 	if (philo->id == 0)
 		pthread_mutex_unlock(&philo->stats->lock[philo->stats->num_philos - 1]);
 	else
 		pthread_mutex_unlock(&philo->stats->lock[philo->id - 1]);
+	if (philo->id % 2 != 0)
+		pthread_mutex_unlock(&philo->stats->lock[philo->id]);
 	return (1);
 }
 
@@ -72,7 +73,6 @@ int	destroy_mutex_locks(t_gen_stats *stats)
 	i = 0;
 	pthread_mutex_destroy(&stats->print_lock);
 	pthread_mutex_destroy(&stats->death_lock);
-	pthread_mutex_destroy(&stats->eat_lock);
 	while (i < stats->num_philos)
 	{
 		pthread_mutex_destroy(&stats->lock[i]);

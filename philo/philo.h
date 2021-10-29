@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/27 18:31:52 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/29 20:11:53 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,6 +39,7 @@ typedef struct s_gen_stats
 	long long		num_philos;
 	pthread_mutex_t	*lock;
 	pthread_mutex_t	print_lock;
+	pthread_mutex_t	death_lock;
 	long long		die;
 	long long		eat;
 	long long		sleep;
@@ -76,19 +77,18 @@ int			ft_mutex_print(t_philo_id *philo, int ret, char *action);
 */
 long long	get_time(void);
 long long	elapsed_time(long long start_time);
-void		mesleep(unsigned long ms);
+void		mr_sandman(unsigned long ms);
 
 /*
 ** Philo functions
 */
 int			setup_philos(t_gen_stats *stats);
-void		*monitoring_system(void *args);
-int			end_monitoring(t_gen_stats *stats, pthread_t *monitor);
 void		*live_your_life(void *arg);
 void		*life_support(void *args);
-int			call_grimreaper(t_philo_id *philo);
+int			call_grimreaper(pthread_t *grimreaper, t_philo_id *philo);
 int			check_death_occurence(t_philo_id *philo);
 int			check_death(t_philo_id *philo);
+int			check_done_eating(t_philo_id *philo);
 
 // mutex
 int			destroy_mutex_locks(t_gen_stats *stats);

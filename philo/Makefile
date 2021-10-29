@@ -6,7 +6,7 @@
 #    By: nhariman <nhariman@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/31 23:42:48 by nhariman      #+#    #+#                  #
-#    Updated: 2021/10/26 22:05:55 by nhariman      ########   odam.nl          #
+#    Updated: 2021/10/28 17:08:16 by nhariman      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -19,7 +19,6 @@ C_FILES = main.c \
 		is_something.c \
 		time_functions.c \
 		philo_lifecycle.c \
-		philo_monitoring.c \
 		philo_mutex.c \
 		philo_death.c \
 		philo_setup.c

@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/20 14:58:00 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/27 12:24:55 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/10/29 20:11:02 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ long long	elapsed_time(long long start_time)
 	return (current_time - start_time);
 }
 
-void	mesleep(unsigned long ms)
+void	mr_sandman(unsigned long ms)
 {
 	unsigned long	time;
 
