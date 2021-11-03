@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/08/30 15:15:43 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/29 20:11:53 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/03 21:15:14 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -87,6 +87,7 @@ void		*live_your_life(void *arg);
 void		*life_support(void *args);
 int			call_grimreaper(pthread_t *grimreaper, t_philo_id *philo);
 int			check_death_occurence(t_philo_id *philo);
+int			check_pulse(t_philo_id *philo);
 int			check_death(t_philo_id *philo);
 int			check_done_eating(t_philo_id *philo);
 

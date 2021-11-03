@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:24:04 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/29 20:12:54 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/03 21:52:58 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 static int	init_philo_vars(t_philo_id *philo, t_gen_stats *stats, long long i)
 {
 	philo->id = i;
-	philo->last_meal = elapsed_time(stats->start_time);
+	philo->last_meal = 0;
 	philo->meal_count = 0;
 	philo->stats = stats;
 	philo->death = false;
