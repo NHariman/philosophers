@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/03 22:25:52 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/24 16:40:05 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,7 +35,7 @@ static void	philo_action(t_philo_id *philo, int status)
 		mr_sandman(philo->stats->sleep);
 	}
 	else if (status == think)
-		ft_mutex_print(philo, 0, "is thinking");
+		ft_mutex_print(philo, 0, "is \033[0;32mthinking\033[0m");
 }
 
 static void	lifecycle(t_philo_id *philo)
