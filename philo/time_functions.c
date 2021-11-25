@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/20 14:58:00 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/10/29 20:11:02 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/25 17:22:47 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,5 @@ void	mr_sandman(unsigned long ms)
 
 	time = get_time();
 	while ((get_time() - time) < ms)
-		usleep(100);
+		usleep(500);
 }

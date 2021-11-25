@@ -6,7 +6,7 @@
 #    By: nhariman <nhariman@student.codam.nl>         +#+                      #
 #                                                    +#+                       #
 #    Created: 2019/10/31 23:42:48 by nhariman      #+#    #+#                  #
-#    Updated: 2021/10/28 17:08:16 by nhariman      ########   odam.nl          #
+#    Updated: 2021/11/25 17:30:35 by nhariman      ########   odam.nl          #
 #                                                                              #
 # **************************************************************************** #
 
@@ -30,7 +30,7 @@ NAME = philo
 all: $(NAME)
 
 $(NAME): $(O_FILES)
-	@$(COMPILE) $(O_FILES) -o $@
+	@$(COMPILE) $(O_FILES) -o $@ -O3
 
 %.o: %.c philo.h
 	@$(COMPILE) -c $(FLAGS) -o $@ -c $<

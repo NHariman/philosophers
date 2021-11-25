@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/10/26 21:54:27 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/03 22:30:58 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/25 17:37:17 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,14 +22,12 @@ int	check_done_eating(t_philo_id *philo)
 	ret = 0;
 	if (philo->stats->must_eat == -2)
 		return (ret);
-	pthread_mutex_lock(&philo->eat_lock);
 	if (philo->stats->must_eat != -2
 		&& philo->meal_count == philo->stats->must_eat)
 	{
 		ret = 1;
 		ft_mutex_print(philo, 0, "has \033[0;32mfinished eating\033[0m");
 	}
-	pthread_mutex_unlock(&philo->eat_lock);
 	return (ret);
 }
 
@@ -38,10 +36,8 @@ int	check_pulse(t_philo_id *philo)
 	int	ret;
 
 	ret = 0;
-	pthread_mutex_lock(&philo->stats->death_lock);
 	if (philo->stats->death_occured == true)
 		ret = 1;
-	pthread_mutex_unlock(&philo->stats->death_lock);
 	return (ret);
 }
 
@@ -52,10 +48,8 @@ int	check_death(t_philo_id *philo)
 
 	ret = 0;
 	time = elapsed_time(philo->stats->start_time);
-	pthread_mutex_lock(&philo->eat_lock);
 	if (time - philo->last_meal > philo->stats->die)
 	{
-		pthread_mutex_unlock(&philo->eat_lock);
 		ft_mutex_print(philo, 0, "has \033[0;31mdied\033[0m");
 		pthread_mutex_lock(&philo->stats->death_lock);
 		philo->stats->death_occured = true;
@@ -63,8 +57,6 @@ int	check_death(t_philo_id *philo)
 		ret = 1;
 		philo->death = true;
 	}
-	else
-		pthread_mutex_unlock(&philo->eat_lock);
 	return (ret);
 }
 
@@ -83,7 +75,7 @@ void	*life_support(void *args)
 			ret = 1;
 		if (ret)
 			break ;
-		mr_sandman(500);
+		usleep(500);
 	}
 	return (NULL);
 }

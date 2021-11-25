@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/24 16:40:05 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/25 17:51:08 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,7 +40,10 @@ static void	philo_action(t_philo_id *philo, int status)
 
 static void	lifecycle(t_philo_id *philo)
 {
-	philo->last_meal = elapsed_time(philo->stats->start_time);
+	if (philo->stats->num_philos % 2 != 0
+			&& philo->id == philo->stats->num_philos - 1)
+			usleep(600);
+	usleep((philo->id % 2) * 100000);
 	while (1)
 	{
 		if (check_pulse(philo))
@@ -50,9 +53,6 @@ static void	lifecycle(t_philo_id *philo)
 			return ;
 		philo_action(philo, sleepy);
 		philo_action(philo, think);
-		if (philo->stats->num_philos % 2 != 0
-			&& philo->id == philo->stats->num_philos - 1)
-			mr_sandman(6);
 	}
 }
 
@@ -64,6 +64,7 @@ void	*live_your_life(void *arg)
 
 	philo = (t_philo_id *)arg;
 	grimreaper = 0;
+	philo->last_meal = elapsed_time(philo->stats->start_time);
 	call_grimreaper(&grimreaper, philo);
 	if (philo->stats->num_philos == 1)
 	{
