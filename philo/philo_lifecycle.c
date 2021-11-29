@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/25 17:51:08 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/29 15:51:55 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ static void	philo_action(t_philo_id *philo, int status)
 	}
 	else if (status == sleepy)
 	{
-		ft_mutex_print(philo, 0, "is \033[0;36msleeping\033[0m");
-		mr_sandman(philo->stats->sleep);
+		if (!ft_mutex_print(philo, 0, "is \033[0;36msleeping\033[0m"))
+			mr_sandman(philo->stats->sleep);
 	}
 	else if (status == think)
 		ft_mutex_print(philo, 0, "is \033[0;32mthinking\033[0m");
@@ -40,10 +40,10 @@ static void	philo_action(t_philo_id *philo, int status)
 
 static void	lifecycle(t_philo_id *philo)
 {
-	if (philo->stats->num_philos % 2 != 0
-			&& philo->id == philo->stats->num_philos - 1)
-			usleep(600);
 	usleep((philo->id % 2) * 100000);
+	if (philo->stats->num_philos % 2 != 0
+		&& philo->id == philo->stats->num_philos - 1)
+		usleep(100000);
 	while (1)
 	{
 		if (check_pulse(philo))
