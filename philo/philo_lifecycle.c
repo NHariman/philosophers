@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/29 15:51:55 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/29 19:13:04 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -43,7 +43,7 @@ static void	lifecycle(t_philo_id *philo)
 	usleep((philo->id % 2) * 100000);
 	if (philo->stats->num_philos % 2 != 0
 		&& philo->id == philo->stats->num_philos - 1)
-		usleep(100000);
+		usleep(10000);
 	while (1)
 	{
 		if (check_pulse(philo))

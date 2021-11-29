@@ -6,7 +6,7 @@
 /*   By: niks <niks@student.42.fr>                    +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/07/27 21:30:36 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/03 22:24:31 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/29 19:21:45 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ int	ft_mutex_print(t_philo_id *philo, int ret, char *action)
 	time = elapsed_time(philo->stats->start_time);
 	if (!check_pulse(philo))
 		printf("[%lld] Philosopher %lld %s\n",
-		time, philo->id + 1, action);
+			time, philo->id + 1, action);
 	pthread_mutex_unlock(&philo->stats->print_lock);
 	return (ret);
 }
