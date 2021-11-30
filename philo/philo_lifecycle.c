@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:59:29 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/29 19:13:04 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/30 15:55:09 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,7 +24,9 @@ static void	philo_action(t_philo_id *philo, int status)
 		ft_mutex_print(philo, 0, "is \033[0;33meating\033[0m");
 		pthread_mutex_lock(&philo->eat_lock);
 		philo->meal_count += 1;
+		pthread_mutex_lock(&philo->stats->death_lock);
 		philo->last_meal = elapsed_time(philo->stats->start_time);
+		pthread_mutex_unlock(&philo->stats->death_lock);
 		pthread_mutex_unlock(&philo->eat_lock);
 		mr_sandman(philo->stats->eat);
 		drop_forks(philo);
@@ -38,12 +40,10 @@ static void	philo_action(t_philo_id *philo, int status)
 		ft_mutex_print(philo, 0, "is \033[0;32mthinking\033[0m");
 }
 
+// make a smaller stagger every time they go for a fork for longevity
 static void	lifecycle(t_philo_id *philo)
 {
 	usleep((philo->id % 2) * 100000);
-	if (philo->stats->num_philos % 2 != 0
-		&& philo->id == philo->stats->num_philos - 1)
-		usleep(10000);
 	while (1)
 	{
 		if (check_pulse(philo))
@@ -53,6 +53,9 @@ static void	lifecycle(t_philo_id *philo)
 			return ;
 		philo_action(philo, sleepy);
 		philo_action(philo, think);
+		if (philo->stats->num_philos % 2 != 0
+			&& philo->id == philo->stats->num_philos - 1)
+			usleep(600);
 	}
 }
 
@@ -68,7 +71,6 @@ void	*live_your_life(void *arg)
 	call_grimreaper(&grimreaper, philo);
 	if (philo->stats->num_philos == 1)
 	{
-		ft_mutex_print(philo, 0, "is \033[0;32mthinking\033[0m");
 		mr_sandman(philo->stats->die);
 		ft_mutex_print(philo, 0, "has \033[0;31mdied\033[0m");
 		pthread_mutex_lock(&philo->stats->death_lock);

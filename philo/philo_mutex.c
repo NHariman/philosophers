@@ -6,7 +6,7 @@
 /*   By: nhariman <nhariman@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2021/09/30 19:47:47 by nhariman      #+#    #+#                 */
-/*   Updated: 2021/11/03 22:17:44 by nhariman      ########   odam.nl         */
+/*   Updated: 2021/11/30 15:52:32 by nhariman      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -36,9 +36,22 @@ int	initialise_mutex_locks(t_gen_stats *stats)
 	return (0);
 }
 
+static void	wait_in_line(t_philo_id *philo)
+{
+	long long	num;
+
+	num = philo->stats->num_philos;
+	if (philo->id % 3)
+		usleep(250);
+	if (philo->id % 2)
+		usleep(250);
+}
+
 // attempt lock function here
 int	grab_forks(t_philo_id *philo)
 {
+	if (philo->stats->num_philos % 2)
+		wait_in_line(philo);
 	if (philo->id % 2 == 0)
 		pthread_mutex_lock(&philo->stats->lock[philo->id]);
 	if (philo->id == 0)
